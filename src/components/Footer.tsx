@@ -1,9 +1,12 @@
 import React from 'react';
 
-const CRP = process.env.REACT_APP_CRP;
-const PHONE = process.env.REACT_APP_PHONE;
-const EMAIL = process.env.REACT_APP_EMAIL;
-const ADDRESS = process.env.REACT_APP_ADDRESS;
+const CRP = '08/33121';
+const PHONE = '(41)7403-7997';
+const EMAIL = 'lara.frasson.psico@gmail.com';
+const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
+const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
+const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
+const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
 
 function Footer() {
     return (
@@ -11,12 +14,11 @@ function Footer() {
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-8">
                     <div className="col-span-2">
-                        <h3 className="text-2xl font-bold mb-4">Gabrielle Mazulo</h3>
+                        <h3 className="text-2xl font-bold mb-4">Lara Frasson</h3>
                         <p className="text-primary mb-4 leading-relaxed">
-                            Psicóloga especializada em avaliação neuropsicológica de crianças e adolescentes.
-                            Cuidado humanizado e cientificamente fundamentado.
+                            Psicóloga infanto juvenil, educadora parental pela disciplina positiva, especialista em Análise do Comportamento, pós graduada em clínica analítico comportamental infantil, habilidades terapêuticas, pós graduanda em Neuropsicologia e ABA. Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR.
                         </p>
-                        <p className="text-secondary text-sm">CRP {CRP}</p>
+                        <p className="text-secondary text-sm">Rua Albino Silva, 455 - Bom Retiro, Curitiba/PR</p>
                     </div>
                     <div>
                         <h4 className="font-semibold mb-4">Serviços</h4>
@@ -33,6 +35,9 @@ function Footer() {
                             <p>{PHONE}</p>
                             <p>{EMAIL}</p>
                             <p>{ADDRESS}</p>
+                            <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer" className="block text-blue-500 hover:underline">Instagram</a>
+                            <a href={LINKEDIN_LINK} target="_blank" rel="noopener noreferrer" className="block text-blue-700 hover:underline">LinkedIn</a>
+                            <a href={FACEBOOK_LINK} target="_blank" rel="noopener noreferrer" className="block text-blue-600 hover:underline">Facebook</a>
                         </div>
                     </div>
                 </div>

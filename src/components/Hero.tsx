@@ -1,8 +1,11 @@
 import React from 'react';
 
-const INSTAGRAM = process.env.REACT_APP_INSTAGRAM;
-const WHATSAPP = process.env.REACT_APP_WHATSAPP;
-const INSTAGRAM_LINK = `https://instagram.com/${INSTAGRAM}`;
+const WHATSAPP_LINK = 'https://wa.me/554174037997';
+const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
+const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
+const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
+const CRP = '08/33121';
+const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
 import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 function Hero() {
@@ -12,15 +15,15 @@ function Hero() {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
                         <h1 className="text-4xl md:text-6xl font-bold text-accent mb-6 leading-tight">
-                            Avaliação Neuropsicológica
-                            <span className="text-primary block">para Crianças e Adolescentes</span>
+                            Psicóloga Infanto Juvenil
+                            <span className="text-primary block">Lara Frasson</span>
                         </h1>
                         <p className="text-xl text-accent mb-8 leading-relaxed">
-                            Especialista em compreender o desenvolvimento cognitivo, emocional e comportamental de crianças e adolescentes através de avaliações neuropsicológicas precisas e humanizadas.
+                            Olá, eu sou a Tia Lara! Sou autista, psicóloga infanto juvenil, educadora parental pela disciplina positiva e atuo com a Análise do Comportamento. Pós graduada em clínica analítico comportamental infantil, habilidades terapêuticas, pós graduanda em Neuropsicologia e ABA. Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
-                                href={WHATSAPP}
+                                href={WHATSAPP_LINK}
                                 target="_blank"
                                 className="bg-primary hover:bg-accent text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg"
                             >
@@ -48,14 +51,14 @@ function Hero() {
                             <div className="rounded-xl overflow-hidden w-full" style={{ maxWidth: '350px' }}>
                                 <img
                                     src="/assets/images/heroImage.jpg"
-                                    alt="Gabrielle Mazulo"
+                                    alt="Lara Frasson"
                                     className="w-full h-auto rounded-xl"
                                     style={{ display: 'block', maxHeight: '400px', objectFit: 'contain', margin: '0 auto' }}
                                 />
                             </div>
                             <div className="mt-6 text-center w-full">
-                                <h3 className="text-xl font-semibold text-accent">Gabrielle Mazulo</h3>
-                                <p className="text-secondary">Psicóloga Especialista</p>
+                                <h3 className="text-xl font-semibold text-accent">Lara Frasson</h3>
+                                <p className="text-secondary">Psicóloga Infanto Juvenil</p>
                             </div>
                         </a>
                     </div>

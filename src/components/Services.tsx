@@ -1,3 +1,10 @@
+// Informações fixas
+const CRP = '08/33121';
+const WHATSAPP_LINK = 'https://wa.me/554174037997';
+const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
+const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
+const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
+const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
 import React from 'react';
 import { Users, Award, Heart, Star } from 'lucide-react';
 
@@ -5,10 +12,10 @@ function Services() {
     return (
         <section id="servicos" className="py-20 bg-background">
             <div className="container mx-auto px-6">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-accent mb-4">Serviços Especializados</h2>
+                    <div className="text-center mb-16">
+                    <h2 className="text-4xl font-bold text-accent mb-4">Serviços</h2>
                     <p className="text-xl text-accent max-w-3xl mx-auto">
-                        Ofereço avaliações neuropsicológicas completas e personalizadas para cada criança e adolescente
+                        Conheça os serviços oferecidos para o desenvolvimento comportamental e emocional de crianças, adolescentes e famílias.
                     </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">
@@ -16,27 +23,27 @@ function Services() {
                         <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mb-6">
                             <Users className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-4">Avaliação Neuropsicológica</h3>
+                        <h3 className="text-2xl font-semibold text-accent mb-4">Atendimento Infanto Juvenil</h3>
                         <p className="text-accent leading-relaxed">
-                            Avaliação completa das funções cognitivas, incluindo atenção, memória, linguagem, funções executivas e habilidades acadêmicas.
+                            Atendimento clínico de crianças e adolescentes com desenvolvimento atípico e/ou demandas emocionais sob a perspectiva da análise do comportamento.
                         </p>
                     </div>
                     <div className="bg-gradient-to-br from-secondary to-background p-8 rounded-2xl hover:shadow-xl transition-all transform hover:-translate-y-2">
                         <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mb-6">
                             <Award className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-4">Diagnóstico Diferencial</h3>
+                        <h3 className="text-2xl font-semibold text-accent mb-4">Estimulação de Bebês</h3>
                         <p className="text-accent leading-relaxed">
-                            Identificação precisa, em crianças, adolescentes e adultos, de condições como TDAH, TEA, Altas Habilidades/Superdotação, dificuldades de aprendizagem e outros transtornos do neurodesenvolvimento.
+                            Estimulação precoce de bebês com desenvolvimento típico e/ou com sinal de alerta para o desenvolvimento.
                         </p>
                     </div>
                     <div className="bg-gradient-to-br from-primary to-secondary p-8 rounded-2xl hover:shadow-xl transition-all transform hover:-translate-y-2">
                         <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-6">
                             <Heart className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-4">Orientação Familiar</h3>
+                        <h3 className="text-2xl font-semibold text-accent mb-4">Orientação Parental</h3>
                         <p className="text-accent leading-relaxed">
-                            Suporte e orientação para famílias e escolas sobre estratégias de intervenção e acompanhamento adequados.
+                            Orientação parental com o objetivo de auxiliar as famílias a manejarem o comportamento disruptivo das crianças, bem como a desenvolver práticas parentais positivas.
                         </p>
                     </div>
                 </div>
@@ -65,6 +72,13 @@ function Services() {
                         </div>
                     </div>
                 </div>
+            {/* Redes sociais */}
+            <div className="mt-8 flex flex-wrap gap-4 justify-center">
+                <a href={INSTAGRAM_LINK} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Instagram</a>
+                <a href={LINKEDIN_LINK} target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:underline">LinkedIn</a>
+                <a href={FACEBOOK_LINK} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Facebook</a>
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">WhatsApp</a>
+            </div>
             </div>
         </section>
     );

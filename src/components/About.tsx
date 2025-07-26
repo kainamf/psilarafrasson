@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Clock, Heart } from 'lucide-react';
 
 function About() {
@@ -7,16 +6,10 @@ function About() {
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 className="text-4xl font-bold text-accent mb-6">Sobre Gabrielle Mazulo</h2>
+                        <h2 className="text-4xl font-bold text-accent mb-6">Quem sou eu?</h2>
                         <div className="space-y-4 text-accent leading-relaxed">
                             <p>
-                                Sou Gabrielle, mestranda em Ensino em Biociências e Saúde pela Fiocruz, pós-graduanda em neuropsicologia pelo IPOG e psicóloga formada pela Universidade Federal Rural do Rio de Janeiro (UFRRJ).
-                            </p>
-                            <p>
-                                Ofereço os serviços de psicoterapia individual de crianças e adolescentes, Avaliação Neuropsicológica de Crianças, Adolescentes e Adultos e Orientação Parental.
-                            </p>
-                            <p>
-                                Meu propósito é ajudar famílias e escolas a acolherem o desenvolvimento dos pequenos de maneira saudável.
+                                Olá, eu sou a Tia Lara, sou autista, psicóloga infanto juvenil e educadora parental pela disciplina positiva, atuo com a Análise do Comportamento. Sou pós graduada em clínica analítico comportamental infantil e em habilidades terapêuticas na clínica analítico comportamental, pós graduanda em Neuropsicologia e ABA. Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR, estou aqui para te auxiliar na jornada do desenvolvimento comportamental e emocional do seu pequeno (a)!
                             </p>
                         </div>
                         <div className="mt-8 grid grid-cols-2 gap-4">
