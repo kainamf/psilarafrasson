@@ -3,11 +3,7 @@ import { Award, Clock, Heart } from 'lucide-react';
 function About() {
     return (
         <section id="sobre" className="py-20 bg-tertiary-500 relative">
-            <div className="absolute left-0 right-0 -bottom-1" style={{height: '60px', zIndex: 2}}>
-                <svg viewBox="0 0 1854 60" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="60">
-                    <path d="M0 0L1854 0V60L0 30V0Z" fill="#49a9b2" />
-                </svg>
-            </div>
+
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
