@@ -11,7 +11,12 @@ const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
 
 function Services() {
     return (
-        <section id="services" className="py-20 bg-gradient-to-b from-primary-300 to-primary-100">
+        <section id="services" className="py-20 bg-primary-300 relative">
+            <div className="absolute left-0 right-0 -bottom-1" style={{height: '60px', zIndex: 2}}>
+                <svg viewBox="0 0 1854 60" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="60">
+                    <path d="M0 0L1854 0V60L0 30V0Z" fill="#f2d462" />
+                </svg>
+            </div>
             <div className="container mx-auto px-6">
                     <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-accent mb-4">Serviços</h2>

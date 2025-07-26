@@ -11,7 +11,12 @@ const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
 
 function Hero() {
     return (
-        <section id="inicio" className="pt-20 pb-16 bg-gradient-to-b from-primary-500 to-primary-300">
+        <section id="inicio" className="pt-20 pb-16 bg-secondary-100 relative">
+            <div className="absolute left-0 right-0 -bottom-1" style={{height: '60px', zIndex: 2}}>
+                <svg viewBox="0 0 1854 60" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="60">
+                    <path d="M0 0L1854 0V60L0 30V0Z" fill="#6cbbc3" />
+                </svg>
+            </div>
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>

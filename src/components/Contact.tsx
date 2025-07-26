@@ -11,7 +11,12 @@ const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
 
 function Contact() {
     return (
-        <section id="contato" className="py-20 bg-gradient-to-b from-primary-700 to-primary-900">
+        <section id="contato" className="py-20 bg-primary-700 relative">
+            <div className="absolute left-0 right-0 -bottom-1" style={{height: '60px', zIndex: 2}}>
+                <svg viewBox="0 0 1854 60" fill="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="60">
+                    <path d="M0 0L1854 0V60L0 30V0Z" fill="#447e84" />
+                </svg>
+            </div>
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-accent-700 text-font mb-4">Entre em Contato</h2>
