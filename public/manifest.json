@@ -1,9 +1,9 @@
 {
-    "short_name": "Gabrielle",
-    "name": "Gabrielle Mazulo",
+    "short_name": "Lara",
+    "name": "Lara Frasson",
     "icons": [
         {
-            "src": "gabrielleLogo.jpg",
+            "src": "laraLogo.jpg",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/jpeg"
         }
