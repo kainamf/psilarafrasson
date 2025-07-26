@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Award, Heart, Star } from 'lucide-react';
+import { Users, User, Smile } from 'lucide-react';
 
 const CRP = '08/33121';
 const WHATSAPP_LINK = 'https://wa.me/554174037997';
@@ -20,29 +20,29 @@ function Services() {
                     </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">
-                    <div className="bg-gradient-to-br from-background to-primary p-8 rounded-2xl hover:shadow-xl transition-all transform hover:-translate-y-2">
-                        <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                            <Users className="text-white" size={28} />
+                    <div className="bg-primary-700 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 flex flex-col items-center text-center">
+                        <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mb-2">
+                            <User className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-4">Atendimento Infanto Juvenil</h3>
+                        <h3 className="text-2xl font-semibold text-accent mb-2">Atendimento Infanto Juvenil</h3>
                         <p className="text-accent leading-relaxed">
                             Atendimento clínico de crianças e adolescentes com desenvolvimento atípico e/ou demandas emocionais sob a perspectiva da análise do comportamento.
                         </p>
                     </div>
-                    <div className="bg-gradient-to-br from-secondary to-background p-8 rounded-2xl hover:shadow-xl transition-all transform hover:-translate-y-2">
-                        <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                            <Award className="text-white" size={28} />
+                    <div className="bg-primary-700 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 flex flex-col items-center text-center">
+                        <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mb-2 overflow-hidden">
+                            <img src="/assets/images/baby.webp" alt="Ícone bebê" className="w-10 h-10 object-cover" style={{ filter: 'brightness(0) invert(1)' }} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-4">Estimulação de Bebês</h3>
+                        <h3 className="text-2xl font-semibold text-accent mb-2">Estimulação de Bebês</h3>
                         <p className="text-accent leading-relaxed">
                             Estimulação precoce de bebês com desenvolvimento típico e/ou com sinal de alerta para o desenvolvimento.
                         </p>
                     </div>
-                    <div className="bg-gradient-to-br from-primary to-secondary p-8 rounded-2xl hover:shadow-xl transition-all transform hover:-translate-y-2">
-                        <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-6">
-                            <Heart className="text-white" size={28} />
+                    <div className="bg-primary-700 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 flex flex-col items-center text-center">
+                        <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-2">
+                            <Users className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-4">Orientação Parental</h3>
+                        <h3 className="text-2xl font-semibold text-accent mb-2">Orientação Parental</h3>
                         <p className="text-accent leading-relaxed">
                             Orientação parental com o objetivo de auxiliar as famílias a manejarem o comportamento disruptivo das crianças, bem como a desenvolver práticas parentais positivas.
                         </p>
