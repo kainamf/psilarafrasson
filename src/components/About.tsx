@@ -31,7 +31,7 @@ function About() {
                     <div className="flex justify-center items-center mt-8 md:mt-12">
                         <div className="rounded-2xl shadow-2xl p-0 bg-primary-100" style={{ width: '350px', height: '480px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                             <iframe
-                                src="https://www.instagram.com/p/C75CChOPQh8/embed"
+                                src="https://www.instagram.com/p/DIcmvfHM3-i/embed"
                                 width="350"
                                 height="480"
                                 allowTransparency={true}
