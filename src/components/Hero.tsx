@@ -1,4 +1,5 @@
 import React from 'react';
+import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 const WHATSAPP_LINK = 'https://wa.me/554174037997';
 const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
@@ -6,7 +7,7 @@ const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
 const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
 const CRP = '08/33121';
 const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
-import { MessageCircle, Instagram, Heart } from 'lucide-react';
+
 
 function Hero() {
     return (
@@ -50,7 +51,7 @@ function Hero() {
                         >
                             <div className="rounded-xl overflow-hidden w-full" style={{ maxWidth: '350px' }}>
                                 <img
-                                    src="/assets/images/heroImage.jpg"
+                                    src="/assets/images/laraLogo.png"
                                     alt="Lara Frasson"
                                     className="w-full h-auto rounded-xl"
                                     style={{ display: 'block', maxHeight: '400px', objectFit: 'contain', margin: '0 auto' }}

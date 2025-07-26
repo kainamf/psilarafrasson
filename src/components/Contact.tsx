@@ -1,4 +1,5 @@
 import React from 'react';
+import { MessageCircle, Instagram, Mail, MapPin } from 'lucide-react';
 
 const PHONE = '(41)7403-7997';
 const EMAIL = 'lara.frasson.psico@gmail.com';
@@ -7,7 +8,6 @@ const WHATSAPP_LINK = 'https://wa.me/554174037997';
 const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
 const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
 const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
-import { MessageCircle, Instagram, Mail, MapPin } from 'lucide-react';
 
 function Contact() {
     return (
