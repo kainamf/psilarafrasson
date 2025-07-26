@@ -10,12 +10,12 @@ function Hero() {
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
                     
-                    {/* Coluna da Esquerda: Texto e CTA */}
-                    <div>
+                    {/* Coluna da Esquerda: Logo centralizada acima do texto */}
+                    <div className="flex flex-col items-center text-center">
                         <img 
                             src="/assets/images/laraLogo.png" 
                             alt="Logo Lara Frasson" 
-                            className="w-56 mb-8" // Logo no topo
+                            className="w-72 mb-10 mx-auto" // Logo maior e centralizada
                         />
 
                         <h1 className="text-4xl md:text-5xl font-bold text-stone-800 mb-6 leading-tight">
@@ -26,7 +26,6 @@ function Hero() {
                         <p className="text-lg text-stone-700 mb-8 leading-relaxed">
                             Olá, eu sou a Tia Lara! Sou autista, psicóloga infanto juvenil, educadora parental pela disciplina positiva e atuo com a Análise do Comportamento. Pós graduada em clínica analítico comportamental infantil, habilidades terapêuticas, pós graduanda em Neuropsicologia e ABA. Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR.
                         </p>
-                        
                         <div className="mt-10">
                             <a
                                 href={WHATSAPP_LINK}
