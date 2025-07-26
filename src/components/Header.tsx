@@ -9,11 +9,11 @@ function Header({ scrollToSection }: { scrollToSection: (sectionId: string) => v
                 <div className="flex justify-between items-center">
                     <div className="text-3xl font-bold text-font">
                         Lara Frasson
-                        <div className="text-base font-normal text-font">Psicóloga Infanto Juvenil CRP {CRP}</div>
+                        <div className="text-base font-normal text-font">Psicóloga CRP: {CRP}</div>
                     </div>
                     <nav className="hidden md:flex space-x-8">
                         <button onClick={() => scrollToSection('inicio')} className="text-lg text-font transition-colors">Início</button>
-                        <button onClick={() => scrollToSection('servicos')} className="text-lg text-font transition-colors">Serviços</button>
+                        <button onClick={() => scrollToSection('services')} className="text-lg text-font transition-colors">Serviços</button>
                         <button onClick={() => scrollToSection('sobre')} className="text-lg text-font transition-colors">Sobre</button>
                         <button onClick={() => scrollToSection('contato')} className="text-lg text-font transition-colors">Contato</button>
                     </nav>
