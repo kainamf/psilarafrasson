@@ -13,7 +13,7 @@ function WhatsAppButton() {
                 className="bg-primary-500 hover:bg-primary-700 text-font p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
             >
                 <MessageCircle size={24} />
-                <span className="hidden sm:inline font-semibold">Agendar Consulta</span>
+                <span className="hidden sm:inline font-semibold">WhatsApp</span>
             </a>
         </div>
     );
