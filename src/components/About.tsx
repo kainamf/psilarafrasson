@@ -13,7 +13,7 @@ function About() {
                             </p>
                         </div>
                         <div className="mt-8 grid grid-cols-2 gap-4">
-                            <div className="bg-background p-4 rounded-lg shadow-md">
+                            <div className="bg-primary-100 p-4 rounded-lg shadow-md">
                                 <div className="flex items-center gap-3 mb-2">
                                     <Award className="text-primary" size={20} />
                                     <span className="font-semibold text-accent">Formação</span>
@@ -24,7 +24,7 @@ function About() {
                         </div>
                     </div>
                     <div className="flex justify-center items-center mt-8 md:mt-12">
-                        <div className="rounded-2xl shadow-2xl p-0 bg-background" style={{ width: '350px', height: '480px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div className="rounded-2xl shadow-2xl p-0 bg-primary-100" style={{ width: '350px', height: '480px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                             <iframe
                                 src="https://www.instagram.com/p/C75CChOPQh8/embed"
                                 width="350"

@@ -10,19 +10,19 @@ const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
 
 function Footer() {
     return (
-        <footer className="bg-accent text-white py-12">
+        <footer className="bg-primary-300 text-font py-12">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-8">
                     <div className="col-span-2">
-                        <h3 className="text-2xl font-bold mb-4">Lara Frasson</h3>
-                        <p className="text-primary mb-4 leading-relaxed">
+                        <h3 className="text-2xl font-bold text-primary-700 text-font mb-4">Lara Frasson</h3>
+                        <p className="text-primary-900 text-font mb-4 leading-relaxed">
                             Psicóloga infanto juvenil, educadora parental pela disciplina positiva, especialista em Análise do Comportamento, pós graduada em clínica analítico comportamental infantil, habilidades terapêuticas, pós graduanda em Neuropsicologia e ABA. Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR.
                         </p>
-                        <p className="text-secondary text-sm">Rua Albino Silva, 455 - Bom Retiro, Curitiba/PR</p>
+                        <p className="text-secondary-700 text-font text-sm">Rua Albino Silva, 455 - Bom Retiro, Curitiba/PR</p>
                     </div>
                     <div>
-                        <h4 className="font-semibold mb-4">Serviços</h4>
-                        <ul className="space-y-2 text-primary">
+                        <h4 className="font-semibold text-primary-700 text-font mb-4">Serviços</h4>
+                        <ul className="space-y-2 text-primary-900 text-font">
                             <li>Avaliação Neuropsicológica</li>
                             <li>Diagnóstico Diferencial</li>
                             <li>Orientação Familiar</li>
@@ -30,8 +30,8 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <h4 className="font-semibold mb-4">Contato</h4>
-                        <div className="space-y-2 text-primary">
+                        <h4 className="font-semibold text-primary-700 text-font mb-4">Contato</h4>
+                        <div className="space-y-2 text-primary-900 text-font">
                             <p>{PHONE}</p>
                             <p>{EMAIL}</p>
                             <p>{ADDRESS}</p>
@@ -41,7 +41,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="border-t border-primary mt-8 pt-8 text-center text-secondary">
+                <div className="border-t border-primary-700 mt-8 pt-8 text-center text-secondary-700 text-font">
                     <p>&copy; 2025 Kainã Freitas - Todos os direitos reservados</p>
                     <p className="text-xs mt-2">Desenvolvido por <a href="https://github.com/kainamf" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Kainã Freitas</a></p>
                 </div>

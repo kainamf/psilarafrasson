@@ -14,13 +14,13 @@ function Contact() {
         <section id="contato" className="py-20 bg-gradient-to-br from-background to-primary">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-accent mb-4">Entre em Contato</h2>
-                    <p className="text-xl text-accent">Agende sua consulta e dê o primeiro passo</p>
+                    <h2 className="text-4xl font-bold text-primary-700 text-font mb-4">Entre em Contato</h2>
+                    <p className="text-xl text-primary-900 text-font">Agende sua consulta e dê o primeiro passo</p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-stretch">
                     <div className="space-y-8 flex flex-col h-full">
-                        <div className="bg-background p-6 rounded-2xl shadow-lg">
-                            <h3 className="text-2xl font-semibold text-accent mb-6">Informações de Contato</h3>
+                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg">
+                            <h3 className="text-2xl font-semibold text-primary-700 text-font mb-6">Informações de Contato</h3>
                             <div className="space-y-4">
                                 <a
                                     href={WHATSAPP_LINK}
@@ -31,8 +31,8 @@ function Contact() {
                                         <MessageCircle className="text-white" size={24} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">WhatsApp</div>
-                                        <div className="text-accent">{PHONE}</div>
+                                        <div className="font-semibold text-primary-700 text-font">WhatsApp</div>
+                                        <div className="text-primary-900 text-font">{PHONE}</div>
                                     </div>
                                 </a>
                                 <a
@@ -44,8 +44,8 @@ function Contact() {
                                         <Instagram className="text-white" size={24} />
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">Instagram</div>
-                                        <div className="text-accent">@psicolarafrasson</div>
+                                        <div className="font-semibold text-primary-700 text-font">Instagram</div>
+                                        <div className="text-primary-900 text-font">@psicolarafrasson</div>
                                     </div>
                                 </a>
                                 <a
@@ -58,8 +58,8 @@ function Contact() {
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.601 2.002 3.601 4.604v5.592zm-7.5-10.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75z"/></svg>
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">LinkedIn</div>
-                                        <div className="text-accent">lara-frasson-0881b11b0</div>
+                                        <div className="font-semibold text-primary-700 text-font">LinkedIn</div>
+                                        <div className="text-primary-900 text-font">lara-frasson-0881b11b0</div>
                                     </div>
                                 </a>
                                 <a
@@ -72,8 +72,8 @@ function Contact() {
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.733 0-1.325.592-1.325 1.326v21.348c0 .733.592 1.326 1.325 1.326h11.495v-9.294h-3.128v-3.622h3.128v-2.771c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.312h3.587l-.467 3.622h-3.12v9.294h6.116c.733 0 1.325-.593 1.325-1.326v-21.349c0-.734-.592-1.326-1.325-1.326z"/></svg>
                                     </div>
                                     <div>
-                                        <div className="font-semibold text-accent">Facebook</div>
-                                        <div className="text-accent">psicolarafrasson</div>
+                                        <div className="font-semibold text-primary-700 text-font">Facebook</div>
+                                        <div className="text-primary-900 text-font">psicolarafrasson</div>
                                     </div>
                                 </a>
                                 <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg">
@@ -114,7 +114,7 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-background rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-full">
+                    <div className="bg-primary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-full">
                         <div className="p-6 border-b">
                             <h3 className="text-xl font-semibold text-accent">Localização</h3>
                         </div>
