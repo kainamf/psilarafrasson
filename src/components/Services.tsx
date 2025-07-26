@@ -11,7 +11,7 @@ const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
 
 function Services() {
     return (
-        <section id="servicos" className="py-20 bg-primary-100">
+        <section id="services" className="py-20 bg-gradient-to-b from-primary-300 to-primary-100">
             <div className="container mx-auto px-6">
                     <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-accent mb-4">Serviços</h2>

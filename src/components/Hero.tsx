@@ -11,7 +11,7 @@ const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
 
 function Hero() {
     return (
-        <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-primary-100 to-primary-500">
+        <section id="inicio" className="pt-20 pb-16 bg-gradient-to-b from-primary-500 to-primary-300">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>

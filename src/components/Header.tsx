@@ -4,7 +4,7 @@ const CRP = '08/33121';
 
 function Header({ scrollToSection }: { scrollToSection: (sectionId: string) => void }) {
     return (
-        <header className="bg-primary-100/90 backdrop-blur-sm fixed w-full top-0 z-50 shadow-sm">
+        <header className="bg-gradient-to-b from-primary-700 to-primary-500 text-white py-4 shadow-md">
             <div className="container mx-auto px-6 py-4">
                 <div className="flex justify-between items-center">
                     <div className="text-2xl font-bold text-primary-700 text-font">

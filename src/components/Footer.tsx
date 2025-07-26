@@ -10,7 +10,7 @@ const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
 
 function Footer() {
     return (
-        <footer className="bg-primary-300 text-font py-12">
+        <footer className="bg-gradient-to-b from-primary-900 to-primary-700 text-white py-8">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-4 gap-8">
                     <div className="col-span-2">

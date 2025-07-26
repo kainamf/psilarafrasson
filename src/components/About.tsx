@@ -2,7 +2,7 @@ import { Award, Clock, Heart } from 'lucide-react';
 
 function About() {
     return (
-        <section id="sobre" className="py-20 bg-gradient-to-br from-background to-primary">
+        <section id="sobre" className="py-20 bg-gradient-to-b from-primary-100 to-primary-700">
             <div className="container mx-auto px-6">
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     <div>
