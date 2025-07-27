@@ -1,13 +1,4 @@
-import React from 'react';
-import { Users, User, Smile } from 'lucide-react';
-
-const CRP = '08/33121';
-const WHATSAPP_LINK = 'https://wa.me/554174037997';
-const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
-const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
-const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
-const ADDRESS = 'Rua Albino Silva, 455. Bom Retiro, Curitiba/PR';
-
+import { Users, User } from 'lucide-react';
 
 function Services() {
     return (

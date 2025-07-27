@@ -1,4 +1,4 @@
-import { Award, Clock, Heart } from 'lucide-react';
+import { Award } from 'lucide-react';
 
 function About() {
     return (
