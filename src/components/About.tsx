@@ -83,7 +83,7 @@ function About() {
                             <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[420px]">
                                 <InstagramEmbed
                                     url="https://www.instagram.com/p/DIcmvfHM3-i/"
-                                    className="rounded-2xl shadow-2xl bg-primary-100"
+                                    className="rounded-2xl shadow-xl bg-secondary-900"
                                 />
                             </div>
                         </div>
