@@ -54,7 +54,7 @@ function Contact() {
                                     </div>
                                     <div>
                                         <div className="font-semibold text-accent-700 text-font">LinkedIn</div>
-                                        <div className="text-accent-900 text-font">lara-frasson-0881b11b0</div>
+                                        <div className="text-accent-900 text-font">Lara Frasson</div>
                                     </div>
                                 </a>
                                 {/* Facebook */}
