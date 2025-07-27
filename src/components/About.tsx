@@ -10,7 +10,7 @@ function About() {
                         <h2 className="text-4xl font-bold text-accent mb-6">Quem sou eu?</h2>
                         <div className="space-y-4 text-accent leading-relaxed">
                             <p className="text-sm sm:text-base md:text-xl lg:text-xl xl:text-2xl break-words whitespace-pre-line">
-                                Olá, eu sou a Tia Lara! Sou autista, psicóloga especializada em crianças e adolescentes, educadora parental e apaixonada pela disciplina positiva. Tenho pós-graduação em clínica analítico-comportamental infantil, habilidades terapêuticas, e sou pós-graduanda em Neuropsicologia e ABA. Como Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR, estou aqui para apoiar você e sua família na jornada do desenvolvimento emocional e comportamental dos pequenos.
+                                Olá, eu sou a Tia Lara! Sou autista, psicóloga de crianças e adolescentes, educadora parental e especialista em Análise do Comportamento. Estou aqui para apoiar o desenvolvimento emocional e comportamental do seu filho.
                             </p>
                         </div>
                         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">

@@ -20,10 +20,6 @@ function Hero() {
                             Psicóloga Infanto Juvenil
                             <span className="text-stone-600 block">Lara Frasson</span>
                         </h1>
-
-                        <p className="text-lg text-stone-700 mb-8 leading-relaxed max-w-xl mx-auto">
-                            Olá, eu sou a Tia Lara! Sou autista, psicóloga de crianças e adolescentes, educadora parental e especialista em Análise do Comportamento. Estou aqui para apoiar o desenvolvimento emocional e comportamental do seu filho.
-                        </p>
                         <div className="mt-10">
                             <a
                                 href={WHATSAPP_LINK}
