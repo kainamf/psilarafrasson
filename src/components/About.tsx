@@ -19,8 +19,8 @@ function About() {
                                     <Award className="text-primary" size={20} />
                                     <span className="font-semibold text-accent">Formação</span>
                                 </div>
-                                <p className="text-sm text-accent">Psicologia - UFRRJ</p>
-                                <p className="text-sm text-accent">Especialização em Neuropsicologia</p>
+                                <p className="text-sm text-accent">Psicologia - Positivo</p>
+                                <p className="text-sm text-accent">Especialização em Clínica Analítico Comportamental</p>
                             </div>
                         </div>
                     </div>
