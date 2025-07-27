@@ -7,11 +7,13 @@ function About() {
         <>
             <section id="sobre" className="py-20 bg-secondary-300 relative">
                 <div className="container mx-auto px-4 sm:px-6">
-                    <div className="grid md:grid-cols-[35%_65%] gap-12 items-start mb-12 h-full">
-                        {/* Lado esquerdo */}
-                        <div className="space-y-2 flex flex-col gap-0 h-full">
+                    {/* Título centralizado no topo */}
+                    <h2 className="text-4xl font-bold text-accent mb-12 text-center w-full">Quem é a psicóloga Lara Frasson?</h2>
+                    {/* Grid principal: texto à esquerda, Instagram à direita */}
+                    <div className="grid md:grid-cols-[70%_30%] gap-12 items-start mb-12 h-full">
+                        {/* Coluna da esquerda: texto + cards */}
+                        <div className="flex flex-col gap-8 h-full">
                             <div>
-                                <h2 className="text-4xl font-bold text-accent mb-4">Quem é a psicóloga Lara Frasson?</h2>
                                 <div className="space-y-2 text-accent leading-relaxed text-base md:text-lg mb-2">
                                     <p>
                                         Sou psicóloga, autista, especialista em neurodesenvolvimento e apaixonada por escutar o que muitas vezes o mundo insiste em silenciar.
@@ -24,19 +26,9 @@ function About() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex justify-center items-start w-full overflow-x-hidden">
-                                <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[420px]">
-                                    <InstagramEmbed
-                                        url="https://www.instagram.com/p/DIcmvfHM3-i/"
-                                        className="rounded-2xl shadow-2xl bg-primary-100"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        {/* Lado direito: grid 3x3 de cards */}
-                        <div className="h-full flex flex-col">
-                            <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mb-4">
-                                {/* Card Formação e Especializações ocupando linha inteira */}
+                            {/* Cards em grid 2x2 */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                {/* Formação e Especializações */}
                                 <div className="bg-primary-100 p-6 rounded-2xl shadow-md w-full">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
                                         <span className="flex-shrink-0 flex items-center"><Award className="text-primary" size={24} /></span>
@@ -57,9 +49,7 @@ function About() {
                                         <li>Pesquisa sobre ensino de habilidades sociais a meninas autistas por meio de realidade virtual, com foco na prevenção de relacionamentos abusivos.</li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {/* Demais cards distribuídos em 2 por linha, 4 linhas */}
+                                {/* Posições e Projetos */}
                                 <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Award className="text-primary" size={20} /> Posições e Projetos</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm">
@@ -68,17 +58,7 @@ function About() {
                                         <li>Criadora do curso EmpaTEA – a primeira formação do Brasil em ABA com olhar autista, ética compassiva e foco no atendimento empático</li>
                                     </ul>
                                 </div>
-                                <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Award className="text-primary" size={20} /> Atuação Clínica</h3>
-                                    <ul className="list-disc ml-5 text-accent text-sm">
-                                        <li>Atendimento clínico de crianças, adolescentes e mulheres autistas</li>
-                                        <li>Orientação parental baseada em Disciplina Positiva</li>
-                                        <li>Grupos terapêuticos de habilidades sociais para crianças, adolescentes, adultos e apoio a mães</li>
-                                        <li>Estimulação precoce do neurodesenvolvimento</li>
-                                        <li>Supervisão clínica para psicólogas(os) e instituições</li>
-                                        <li>Palestras, formações e consultorias para escolas e clínicas</li>
-                                    </ul>
-                                </div>
+                                {/* Certificações */}
                                 <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><BadgeCheck className="text-primary" size={20} /> Certificações</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm">
@@ -87,6 +67,7 @@ function About() {
                                         <li>Educadora parental pela Positive Discipline Association</li>
                                     </ul>
                                 </div>
+                                {/* Obras Publicadas */}
                                 <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Book className="text-primary" size={20} /> Obras Publicadas</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm">
@@ -95,6 +76,15 @@ function About() {
                                         <li>Coordenadora do livro Olívia – um livro infantil sobre autismo e empatia, protagonizado por uma coruja autista (lançamento em novembro)</li>
                                     </ul>
                                 </div>
+                            </div>
+                        </div>
+                        {/* Coluna da direita: Instagram */}
+                        <div className="flex justify-center items-start w-full overflow-x-hidden">
+                            <div className="w-full max-w-[300px] sm:max-w-[360px] md:max-w-[420px]">
+                                <InstagramEmbed
+                                    url="https://www.instagram.com/p/DIcmvfHM3-i/"
+                                    className="rounded-2xl shadow-2xl bg-primary-100"
+                                />
                             </div>
                         </div>
                     </div>
