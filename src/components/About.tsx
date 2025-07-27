@@ -10,7 +10,7 @@ function About() {
                     <div className="space-y-2 flex flex-col gap-0 h-full">
                         <div>
                             <h2 className="text-4xl font-bold text-accent mb-8">Quem é a psicóloga Lara Frasson?</h2>
-                            <div className="text-accent leading-relaxed text-base md:text-lg mb-8">
+                            <div className="space-y-2 text-accent leading-relaxed text-base md:text-lg mb-8">
                                 <p>
                                     Sou psicóloga, autista, especialista em neurodesenvolvimento e apaixonada por escutar o que muitas vezes o mundo insiste em silenciar.
                                 </p>
