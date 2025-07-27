@@ -22,7 +22,7 @@ function Services() {
                     </div>
                     <div className="bg-primary-700 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 flex flex-col items-center text-center">
                         <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mb-2 overflow-hidden">
-                            <img src="/assets/images/baby.webp" alt="Ícone bebê" className="w-10 h-10 object-cover" style={{ filter: 'brightness(0) invert(1)' }} />
+                            <img src="/assets/icons/baby.webp" alt="Ícone bebê" className="w-10 h-10 object-cover" style={{ filter: 'brightness(0) invert(1)' }} />
                         </div>
                         <h3 className="text-2xl font-semibold text-accent mb-2">Estimulação de Bebês</h3>
                         <p className="text-accent leading-relaxed">
