@@ -18,10 +18,10 @@ function Contact() {
                     <p className="text-xl text-accent-900 text-font">Agende sua consulta e dê o primeiro passo</p>
                 </div>
                 <div className="grid md:grid-cols-2 gap-12 items-stretch">
-                    <div className="space-y-8 flex flex-col h-full">
-                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg">
+                    <div className="space-y-4 flex flex-col h-full">
+                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Informações de Contato</h3>
-                            <div className="space-y-4">
+                            <div className="flex flex-col gap-y-1">
                                 <a
                                     href={WHATSAPP_LINK}
                                     target="_blank"
@@ -102,8 +102,8 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-accent text-white p-8 rounded-2xl">
-                            <h3 className="text-xl font-semibold mb-4">Horário de Atendimento</h3>
+                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                            <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Horário de Atendimento</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between">
                                     <span>Segunda a Sexta:</span>
@@ -126,7 +126,7 @@ function Contact() {
                         </div>
                         <div className="flex-1">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.234073964837!2d-43.48085768446444!3d-23.02156398495309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdc2b7e7e7e7e7e%3A0x7e7e7e7e7e7e7e7e!2sAv.%20das%20Am%C3%A9ricas%2C%2019019%20-%20Recreio%20dos%20Bandeirantes%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022790-701!5e0!3m2!1spt-BR!2sbr!4v1721568000000!5m2!1spt-BR!2sbr"
+                                src="https://www.google.com/maps?q=Rua+Albino+Silva,+455,+Bom+Retiro,+Curitiba,+PR&output=embed"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
