@@ -105,7 +105,7 @@ function Contact() {
                             <div className="space-y-2">
                                 <div className="flex justify-between">
                                     <span>Segunda a Sexta:</span>
-                                    <span>8h às 18h</span>
+                                    <span>8h às 20h</span>
                                 </div>
                                 <div className="flex justify-between">
                                     <span>Sábado:</span>

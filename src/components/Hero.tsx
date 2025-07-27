@@ -3,24 +3,26 @@ import { WHATSAPP_LINK } from '../constants';
 
 function Hero() {
     return (
-        // Seção principal com cor de fundo suave
         <section id="inicio" className="py-8 md:py-8 bg-stone-100">
             <div className="container mx-auto px-4 overflow-x-hidden">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
-                    
                     {/* Coluna da Esquerda: Logo centralizada acima do texto */}
                     <div className="flex flex-col items-center text-center">
                         <img 
                             src="/assets/images/laraLogo.png" 
                             alt="Logo Lara Frasson" 
-                            className="w-72 mx-auto" // Logo maior e centralizada
+                            className="w-72 mx-auto"
                         />
 
-                        <h1 className="text-4xl md:text-5xl font-bold text-stone-800 mb-2 leading-tight">
-                            Psicóloga Infanto Juvenil
-                            <span className="text-stone-600 block">Lara Frasson</span>
+                        <h1 className="text-2xl md:text-3xl font-bold text-stone-800 mb-2 leading-tight">
+                            Psicóloga Lara Frasson | Atendimento clínico com foco em autismo, neurodesenvolvimento e empatia
                         </h1>
-                        <div className="mt-10">
+                        <div className="mt-4 mb-6">
+                            <blockquote className="text-lg md:text-xl italic text-stone-700 font-medium">
+                                “Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.”
+                            </blockquote>
+                        </div>
+                        <div className="mt-6">
                             <a
                                 href={WHATSAPP_LINK}
                                 target="_blank"
@@ -39,11 +41,10 @@ function Hero() {
                            <img
                                 src="/assets/images/laraProfile.jpeg"
                                 alt="Foto de Lara Frasson"
-                                className="w-full h-auto object-cover rounded-t-[200px] shadow-2xl" // Borda superior arredondada para criar o arco
+                                className="w-full h-auto object-cover rounded-t-[200px] shadow-2xl"
                            />
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
