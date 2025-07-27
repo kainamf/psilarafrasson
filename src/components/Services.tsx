@@ -17,7 +17,7 @@ function Services() {
                         </div>
                         <h3 className="text-2xl font-semibold text-accent mb-2">Atuação Clínica</h3>
                         <p className="text-accent leading-relaxed text-base text-left">
-                            Atendo crianças, adolescentes e mulheres autistas, com foco na escuta empática e no desenvolvimento individual. Ofereço orientação parental, grupos terapêuticos, estimulação precoce, supervisão clínica e consultorias para escolas e clínicas, promovendo inclusão e vínculos saudáveis.
+                            Atendimento clínico de crianças, adolescentes e mulheres autistas, com desenvolvimento atípico e/ou demandas emocionais, sob a perspectiva da análise do comportamento.
                         </p>
                     </div>
                     <div className="bg-primary-700 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 flex flex-col items-center text-center">
