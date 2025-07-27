@@ -2,11 +2,11 @@ import { HeartHandshake, Target, Lightbulb, Gem } from 'lucide-react';
 
 function CommitmentSection() {
     return (
-        <section id="compromisso" className="py-16 bg-secondary-200">
+        <section id="compromisso" className="py-16 bg-primary-100">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row gap-8 items-stretch justify-center">
                     {/* Meu Compromisso */}
-                    <div className="flex-1 min-w-[220px] bg-primary-100 p-6 rounded-2xl shadow-md flex flex-col items-start">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
                         <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
                             <HeartHandshake className="text-primary" size={24} /> Meu Compromisso
                         </h3>
@@ -15,7 +15,7 @@ function CommitmentSection() {
                         </p>
                     </div>
                     {/* Propósito */}
-                    <div className="flex-1 min-w-[220px] bg-primary-100 p-6 rounded-2xl shadow-md flex flex-col items-start">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
                         <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
                             <Lightbulb className="text-primary" size={24} /> Propósito
                         </h3>
@@ -29,13 +29,13 @@ function CommitmentSection() {
                             <img
                                 src="/assets/images/laraFunny.jpeg"
                                 alt="Lara Frasson sorrindo"
-                                className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full border-8 border-primary-100 shadow-2xl transition-transform duration-500 hover:scale-105 hover:rotate-2 bg-primary-50"
+                                className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full border-8 border-primary-300 shadow-2xl transition-transform duration-500 hover:scale-105 hover:rotate-2 bg-primary-50"
                                 style={{ boxShadow: '0 8px 32px rgba(0,0,0,0.12)' }}
                             />
                         </div>
                     </div>
                     {/* Missão */}
-                    <div className="flex-1 min-w-[220px] bg-primary-100 p-6 rounded-2xl shadow-md flex flex-col items-start">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
                         <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
                             <Target className="text-primary" size={24} /> Missão
                         </h3>
@@ -44,7 +44,7 @@ function CommitmentSection() {
                         </p>
                     </div>
                     {/* Valores */}
-                    <div className="flex-1 min-w-[220px] bg-primary-100 p-6 rounded-2xl shadow-md flex flex-col items-start">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
                         <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
                             <Gem className="text-primary" size={24} /> Valores
                         </h3>

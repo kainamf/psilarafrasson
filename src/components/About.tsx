@@ -29,7 +29,7 @@ function About() {
                             {/* Cards em grid 2x2 */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 {/* Formação e Especializações */}
-                                <div className="bg-primary-100 p-6 rounded-2xl shadow-md w-full">
+                                <div className="bg-secondary-700 p-6 rounded-2xl shadow-md w-full">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
                                         <span className="flex-shrink-0 flex items-center"><Award className="text-primary" size={24} /></span>
                                         <span>Formação e Especializações</span>
@@ -50,7 +50,7 @@ function About() {
                                     </ul>
                                 </div>
                                 {/* Posições e Projetos */}
-                                <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
+                                <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Award className="text-primary" size={20} /> Posições e Projetos</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm">
                                         <li>Supervisora da Comissão de Desenvolvimento Atípico da ABPMC</li>
@@ -59,7 +59,7 @@ function About() {
                                     </ul>
                                 </div>
                                 {/* Certificações */}
-                                <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
+                                <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><BadgeCheck className="text-primary" size={20} /> Certificações</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm">
                                         <li>Supervisora ABA certificada QASP-S (internacional)</li>
@@ -68,7 +68,7 @@ function About() {
                                     </ul>
                                 </div>
                                 {/* Obras Publicadas */}
-                                <div className="bg-primary-100 p-6 rounded-2xl shadow-md">
+                                <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Book className="text-primary" size={20} /> Obras Publicadas</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm">
                                         <li>Criadora do jogo terapêutico Cabeça Dura (Terapia Criativa)</li>
