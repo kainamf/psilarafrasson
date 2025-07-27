@@ -10,8 +10,10 @@ function WhatsAppButton() {
                 target="_blank"
                 className="bg-primary-500 hover:bg-primary-700 text-font p-4 rounded-full shadow-lg transition-all transform hover:scale-110 flex items-center gap-3"
             >
-                <MessageCircle size={24} />
-                <span className="hidden sm:inline font-semibold">WhatsApp</span>
+                <span className="flex items-center justify-center" style={{ width: 24, height: 24 }}>
+                    <img src="/assets/icons/whatsapp.svg" alt="WhatsApp" width={24} height={24} />
+                </span>
+                <span className="hidden sm:inline font-semibold text-background px-2 rounded">WhatsApp</span>
             </a>
         </div>
     );
