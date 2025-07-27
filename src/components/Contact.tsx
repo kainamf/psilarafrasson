@@ -8,11 +8,14 @@ function Contact() {
                     <h2 className="text-4xl font-bold text-accent-700 text-font mb-4">Entre em Contato</h2>
                     <p className="text-xl text-accent-900 text-font">Agende sua consulta e dê o primeiro passo</p>
                 </div>
-                <div className="grid md:grid-cols-2 gap-12 items-stretch w-full mx-auto">
-                    <div className="space-y-4 flex flex-col h-full">
-                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                {/* Ajuste no grid para telas menores */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch w-full mx-auto">
+                    <div className="space-y-4 flex flex-col">
+                        {/* Informações de Contato */}
+                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full max-w-md mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Informações de Contato</h3>
                             <div className="flex flex-col gap-y-1">
+                                {/* WhatsApp */}
                                 <a
                                     href={WHATSAPP_LINK}
                                     target="_blank"
@@ -26,6 +29,7 @@ function Contact() {
                                         <div className="text-accent-900 text-font">{PHONE}</div>
                                     </div>
                                 </a>
+                                {/* Instagram */}
                                 <a
                                     href={INSTAGRAM_LINK}
                                     target="_blank"
@@ -39,6 +43,7 @@ function Contact() {
                                         <div className="text-accent-900 text-font">@psicolarafrasson</div>
                                     </div>
                                 </a>
+                                {/* LinkedIn */}
                                 <a
                                     href={LINKEDIN_LINK}
                                     target="_blank"
@@ -52,6 +57,7 @@ function Contact() {
                                         <div className="text-accent-900 text-font">lara-frasson-0881b11b0</div>
                                     </div>
                                 </a>
+                                {/* Facebook */}
                                 <a
                                     href={FACEBOOK_LINK}
                                     target="_blank"
@@ -65,6 +71,7 @@ function Contact() {
                                         <div className="text-accent text-font">Lara Frasson</div>
                                     </div>
                                 </a>
+                                {/* E-mail */}
                                 <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg">
                                     <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/email.svg" alt="E-mail" width={24} height={24} />
@@ -74,6 +81,7 @@ function Contact() {
                                         <div className="text-accent-900">{EMAIL}</div>
                                     </div>
                                 </div>
+                                {/* Endereço */}
                                 <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-lg">
                                     <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/address.svg" alt="Endereço" width={24} height={24} />
@@ -85,7 +93,8 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                        {/* Horário de Atendimento */}
+                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full max-w-md mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Horário de Atendimento</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between">
@@ -103,7 +112,9 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-tertiary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full mx-auto" style={{ minHeight: '350px' }}>
+
+                    {/* Localização */}
+                    <div className="bg-tertiary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full max-w-md mx-auto" style={{ minHeight: '350px' }}>
                         <div className="p-6 border-b">
                             <h3 className="text-xl font-semibold text-accent">Localização</h3>
                         </div>
@@ -125,5 +136,6 @@ function Contact() {
         </section>
     );
 }
+
 
 export default Contact;
