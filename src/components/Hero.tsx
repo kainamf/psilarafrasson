@@ -14,12 +14,12 @@ function Hero() {
                             className="w-72 mx-auto"
                         />
 
-                        <h1 className="text-2xl md:text-3xl font-bold text-stone-800 mb-2 leading-tight">
+                        <h1 className="text-2xl md:text-3xl font-bold text-neutral-500 mb-2 leading-tight">
                             Psicóloga Lara Frasson | Atendimento clínico com foco em autismo, neurodesenvolvimento e empatia
                         </h1>
                         <div className="mt-4 mb-6">
                             <blockquote className="text-lg md:text-xl italic text-stone-700 font-medium">
-                                “Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.”
+                                Mais do que ensinar a se comportar, eu ensino a se reconhecer. E ser acolhido por inteiro.
                             </blockquote>
                         </div>
                         <div className="mt-6">
