@@ -1,4 +1,5 @@
 import { Award } from 'lucide-react';
+import InstagramEmbed from './InstagramEmbed';
 
 function About() {
     return (
@@ -9,11 +10,11 @@ function About() {
                     <div>
                         <h2 className="text-4xl font-bold text-accent mb-6">Quem sou eu?</h2>
                         <div className="space-y-4 text-accent leading-relaxed">
-                            <p>
+                            <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl break-words whitespace-pre-line">
                                 Olá, eu sou a Tia Lara! Sou autista, psicóloga especializada em crianças e adolescentes, educadora parental e apaixonada pela disciplina positiva. Tenho pós-graduação em clínica analítico-comportamental infantil, habilidades terapêuticas, e sou pós-graduanda em Neuropsicologia e ABA. Como Supervisora ABA QASP-S certificada e coordenadora ABA CABA-BR, estou aqui para apoiar você e sua família na jornada do desenvolvimento emocional e comportamental dos pequenos.
                             </p>
                         </div>
-                        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 w-full mx-auto">
                             {/* Formação */}
                             <div className="bg-primary-100 p-4 rounded-lg shadow-md">
                                 <div className="flex items-center gap-3 mb-2">
@@ -57,7 +58,7 @@ function About() {
                                 </ul>
                             </div>
                             {/* Obras - ocupa toda a largura do grid */}
-                            <div className="bg-primary-100 p-4 rounded-lg shadow-md col-span-1 md:col-span-2">
+                            <div className="bg-primary-100 p-4 rounded-lg shadow-md col-span-1 sm:col-span-2 md:col-span-2 w-full">
                                 <div className="flex items-center gap-3 mb-2">
                                     <Award className="text-primary" size={20} />
                                     <span className="font-semibold text-accent">Obras</span>
@@ -70,21 +71,8 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center mt-8 md:mt-12">
-                        <div className="rounded-2xl shadow-2xl p-0 bg-primary-100">
-                            <iframe
-                                src="https://www.instagram.com/p/DIcmvfHM3-i/embed"
-                                width="450"
-                                height="700"
-                                allowTransparency={true}
-                                frameBorder="0"
-                                scrolling="no"
-                                allow="encrypted-media"
-                                title="Instagram Post"
-                                className="rounded-xl"
-                                style={{ border: 'none' }}
-                            ></iframe>
-                        </div>
+                    <div className="flex justify-center items-center mt-8 md:mt-12 w-full">
+                        <InstagramEmbed url="https://www.instagram.com/p/DIcmvfHM3-i/" maxWidth={420} className="rounded-2xl shadow-2xl bg-primary-100" />
                     </div>
                 </div>
             </div>

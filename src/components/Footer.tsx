@@ -2,7 +2,7 @@ import { WHATSAPP_LINK, INSTAGRAM_LINK } from '../constants';
 
 function Footer() {
     return (
-        <footer className="w-full min-h-[80px] flex flex-col justify-between bg-primary-700">
+        <footer className="w-full min-h-[80px] flex flex-col justify-between bg-primary-700 overflow-x-hidden">
             <div className="w-full bg-primary-600 flex gap-6 justify-center items-center py-2" role="list">
                 <span className="text-lg font-semibold mr-2">Redes Sociais:</span>
                 <span className="elementor-grid-item" role="listitem">

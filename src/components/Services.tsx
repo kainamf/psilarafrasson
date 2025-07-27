@@ -3,7 +3,7 @@ import { Users, User } from 'lucide-react';
 function Services() {
     return (
         <section id="services" className="py-20 bg-primary-300 relative">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 overflow-x-hidden">
                     <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-accent mb-4">Serviços</h2>
                     <p className="text-xl text-accent max-w-3xl mx-auto">

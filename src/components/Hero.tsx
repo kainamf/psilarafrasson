@@ -5,7 +5,7 @@ function Hero() {
     return (
         // Seção principal com cor de fundo suave
         <section id="inicio" className="py-8 md:py-8 bg-stone-100">
-            <div className="container mx-auto px-6">
+            <div className="container mx-auto px-4 overflow-x-hidden">
                 <div className="grid md:grid-cols-2 gap-16 items-center">
                     
                     {/* Coluna da Esquerda: Logo centralizada acima do texto */}

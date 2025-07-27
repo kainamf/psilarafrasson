@@ -8,9 +8,9 @@ function Contact() {
                     <h2 className="text-4xl font-bold text-accent-700 text-font mb-4">Entre em Contato</h2>
                     <p className="text-xl text-accent-900 text-font">Agende sua consulta e dê o primeiro passo</p>
                 </div>
-                <div className="grid md:grid-cols-2 gap-12 items-stretch">
+                <div className="grid md:grid-cols-2 gap-12 items-stretch w-full mx-auto">
                     <div className="space-y-4 flex flex-col h-full">
-                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Informações de Contato</h3>
                             <div className="flex flex-col gap-y-1">
                                 <a
@@ -85,7 +85,7 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Horário de Atendimento</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between">
@@ -103,16 +103,16 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-tertiary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-full">
+                    <div className="bg-tertiary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full mx-auto" style={{ minHeight: '350px' }}>
                         <div className="p-6 border-b">
                             <h3 className="text-xl font-semibold text-accent">Localização</h3>
                         </div>
-                        <div className="flex-1">
+                        <div className="flex-1 w-full h-full min-h-[350px]" style={{ minHeight: '350px' }}>
                             <iframe
                                 src="https://www.google.com/maps?q=Rua+Albino+Silva,+455,+Bom+Retiro,+Curitiba,+PR&output=embed"
                                 width="100%"
                                 height="100%"
-                                style={{ border: 0 }}
+                                style={{ border: 0, minHeight: '350px' }}
                                 allowFullScreen={true}
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
