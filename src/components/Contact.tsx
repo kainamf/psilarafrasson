@@ -72,15 +72,21 @@ function Contact() {
                                     </div>
                                 </a>
                                 {/* E-mail */}
-                                <div className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg">
-                                    <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
-                                        <img src="/assets/icons/email.svg" alt="E-mail" width={24} height={24} />
+                                <a
+                                    href={`mailto:${EMAIL}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group w-full"
+                                    style={{ minWidth: 0 }}
+                                >
+                                    <div className="bg-tertiary-900 p-3 rounded-full flex items-center justify-center transition-colors">
+                                        <img src="/assets/icons/email.svg" alt="E-mail" width={24} height={24} style={{ display: 'block' }} />
                                     </div>
-                                    <div>
-                                        <div className="font-semibold text-accent-700">E-mail</div>
-                                        <div className="text-accent-900">{EMAIL}</div>
+                                    <div className="flex flex-col min-w-0">
+                                        <div className="font-semibold text-accent-700 text-font">E-mail</div>
+                                        <div className="text-accent-900 text-font break-all">{EMAIL}</div>
                                     </div>
-                                </div>
+                                </a>
                                 {/* Endereço */}
                                 <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-lg">
                                     <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
