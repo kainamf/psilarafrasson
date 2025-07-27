@@ -25,11 +25,11 @@ function About() {
                         </div>
                     </div>
                     <div className="flex justify-center items-center mt-8 md:mt-12">
-                        <div className="rounded-2xl shadow-2xl p-0 bg-primary-100" style={{ width: '350px', height: '550px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div className="rounded-2xl shadow-2xl p-0 bg-primary-100">
                             <iframe
                                 src="https://www.instagram.com/p/DIcmvfHM3-i/embed"
-                                width="350"
-                                height="550"
+                                width="450"
+                                height="700"
                                 allowTransparency={true}
                                 frameBorder="0"
                                 scrolling="no"
