@@ -5,7 +5,7 @@ import CommitmentSection from './CommitmentSection';
 function About() {
     return (
         <>
-            <section id="sobre" className="py-20 bg-secondary-300 relative">
+            <section id="sobre" className="py-16 bg-secondary-300 relative">
                 <div className="container mx-auto px-4 sm:px-6">
                     {/* Título centralizado no topo */}
                     <h2 className="text-4xl font-bold text-accent mb-12 text-center w-full">Quem é a psicóloga Lara Frasson?</h2>

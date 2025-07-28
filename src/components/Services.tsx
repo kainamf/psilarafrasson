@@ -2,10 +2,9 @@ import { User, Baby, Users, Group, BadgeCheck, Book, HeartHandshake, Gem, Lightb
 
 function Services() {
     return (
-        <section id="services" className="py-20 bg-primary-300 relative">
+        <section id="services" className="py-16 bg-primary-300 relative">
             <div className="container mx-auto px-4 overflow-x-hidden">
-                    <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-accent mb-4">Serviços</h2>
+                <div className="text-center mb-16">
                     <p className="text-xl text-accent max-w-3xl mx-auto">
                         Conheça os serviços oferecidos para o desenvolvimento comportamental e emocional de crianças, adolescentes e famílias.
                     </p>

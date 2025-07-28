@@ -2,7 +2,7 @@ import { PHONE, EMAIL, ADDRESS, WHATSAPP_LINK, INSTAGRAM_LINK, LINKEDIN_LINK, FA
 
 function Contact() {
     return (
-        <section id="contato" className="py-20 bg-primary-700 relative">
+        <section id="contato" className="py-16 bg-primary-700 relative">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-accent-700 text-font mb-4">Entre em Contato</h2>
