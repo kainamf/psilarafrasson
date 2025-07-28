@@ -11,7 +11,7 @@ function FreeMaterialsSection() {
                     href="https://drive.google.com/drive/folders/1skFGEx_Q51wM-ZKoo-0GUzCCMRgPpU9e?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-8 py-3 bg-accent text-neutral-700 font-bold rounded-full shadow-lg hover:bg-accent-700 transition-all text-lg animate-bounce-slow"
+                    className="inline-block px-8 py-3 bg-secondary-700 text-neutral-700 font-bold rounded-full shadow-lg hover:bg-accent-700 transition-all text-lg animate-bounce-slow"
                 >
                     Acessar Materiais
                 </a>
