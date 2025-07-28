@@ -1,3 +1,4 @@
+
 function FreeMaterialsSection() {
     return (
         <section id="materiais-gratuitos" className="py-16 bg-secondary-300">
@@ -10,11 +11,20 @@ function FreeMaterialsSection() {
                     href="https://drive.google.com/drive/folders/1skFGEx_Q51wM-ZKoo-0GUzCCMRgPpU9e?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-8 py-3 bg-secondary-700 font-bold rounded-full shadow-lg hover:bg-accent-700 transition-all text-lg"
+                    className="inline-block px-8 py-3 bg-accent text-neutral-700 font-bold rounded-full shadow-lg hover:bg-accent-700 transition-all text-lg animate-bounce-slow"
                 >
                     Acessar Materiais
                 </a>
             </div>
+            <style>{`
+                @keyframes bounce-slow {
+                  0%, 100% { transform: translateY(0); }
+                  50% { transform: translateY(-10px); }
+                }
+                .animate-bounce-slow {
+                  animation: bounce-slow 2.5s infinite;
+                }
+            `}</style>
         </section>
     );
 }

@@ -27,11 +27,20 @@ function Hero() {
                                 href={WHATSAPP_LINK}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="bg-secondary-500 hover:bg-secondary-700 text-background px-8 py-3 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg w-full sm:w-auto"
+                                className="bg-secondary-500 hover:bg-secondary-700 text-background px-8 py-3 rounded-full font-semibold flex items-center justify-center gap-3 transition-all transform hover:scale-105 shadow-lg w-full sm:w-auto animate-bounce-slow"
                             >
                                 Agendar Consulta
                                 <ArrowRight size={20} />
                             </a>
+                            <style>{`
+                                @keyframes bounce-slow {
+                                  0%, 100% { transform: translateY(0); }
+                                  50% { transform: translateY(-10px); }
+                                }
+                                .animate-bounce-slow {
+                                  animation: bounce-slow 2.5s infinite;
+                                }
+                            `}</style>
                         </div>
                     </div>
 
