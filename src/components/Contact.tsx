@@ -2,7 +2,7 @@ import { PHONE, EMAIL, ADDRESS, WHATSAPP_LINK, INSTAGRAM_LINK, LINKEDIN_LINK, FA
 
 function Contact() {
     return (
-        <section id="contato" className="py-20 bg-tertiary-300 relative">
+        <section id="contato" className="py-20 bg-primary-700 relative">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl font-bold text-accent-700 text-font mb-4">Entre em Contato</h2>
@@ -12,7 +12,7 @@ function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch w-full mx-auto">
                     <div className="space-y-4 flex flex-col">
                         {/* Informações de Contato */}
-                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Informações de Contato</h3>
                             <div className="flex flex-col gap-y-1">
                                 {/* WhatsApp */}
@@ -21,7 +21,7 @@ function Contact() {
                                     target="_blank"
                                     className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
                                 >
-                                    <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
+                                    <div className="bg-primary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/whatsapp.svg" alt="WhatsApp" width={24} height={24} />
                                     </div>
                                     <div>
@@ -35,7 +35,7 @@ function Contact() {
                                     target="_blank"
                                     className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-secondary/20 transition-colors group"
                                 >
-                                    <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
+                                    <div className="bg-primary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/instagram.svg" alt="Instagram" width={24} height={24} />
                                     </div>
                                     <div>
@@ -49,7 +49,7 @@ function Contact() {
                                     target="_blank"
                                     className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
                                 >
-                                    <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
+                                    <div className="bg-primary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/linkedin.svg" alt="LinkedIn" width={24} height={24} />
                                     </div>
                                     <div>
@@ -63,7 +63,7 @@ function Contact() {
                                     target="_blank"
                                     className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
                                 >
-                                    <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
+                                    <div className="bg-primary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/facebook.svg" alt="Facebook" width={24} height={24} />
                                     </div>
                                     <div>
@@ -79,7 +79,7 @@ function Contact() {
                                     className="flex items-center gap-4 p-4 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group w-full"
                                     style={{ minWidth: 0 }}
                                 >
-                                    <div className="bg-tertiary-900 p-3 rounded-full flex items-center justify-center transition-colors">
+                                    <div className="bg-primary-900 p-3 rounded-full flex items-center justify-center transition-colors">
                                         <img src="/assets/icons/email.svg" alt="E-mail" width={24} height={24} style={{ display: 'block' }} />
                                     </div>
                                     <div className="flex flex-col min-w-0">
@@ -89,7 +89,7 @@ function Contact() {
                                 </a>
                                 {/* Endereço */}
                                 <div className="flex items-center gap-4 p-4 bg-accent/10 rounded-lg">
-                                    <div className="bg-tertiary-900 p-3 rounded-full transition-colors">
+                                    <div className="bg-primary-900 p-3 rounded-full transition-colors">
                                         <img src="/assets/icons/address.svg" alt="Endereço" width={24} height={24} />
                                     </div>
                                     <div>
@@ -100,7 +100,7 @@ function Contact() {
                             </div>
                         </div>
                         {/* Horário de Atendimento */}
-                        <div className="bg-tertiary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
+                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
                             <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Horário de Atendimento</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between">
@@ -120,7 +120,7 @@ function Contact() {
                     </div>
 
                     {/* Localização */}
-                    <div className="bg-tertiary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ minHeight: '350px' }}>
+                    <div className="bg-primary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ minHeight: '350px' }}>
                         <div className="p-6 border-b">
                             <h3 className="text-xl font-semibold text-accent">Localização</h3>
                         </div>
