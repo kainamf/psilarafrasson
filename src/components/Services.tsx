@@ -18,7 +18,7 @@ function Services() {
                         </div>
                         <h3 className="text-2xl font-semibold text-accent mb-2">Atuação Clínica</h3>
                         <p className="text-accent leading-relaxed text-base text-left">
-                            Atendimento clínico de crianças, adolescentes e mulheres autistas, com desenvolvimento atípico e/ou demandas emocionais, sob a perspectiva da análise do comportamento.
+                            Atendimento clínico de crianças, adolescentes e mulheres autistas, neurodivergentes e/ou demandas emocionais, sob a perspectiva da análise do comportamento.
                         </p>
                     </div>
                     {/* 2 - Estimula Baby */}
@@ -28,7 +28,7 @@ function Services() {
                         </div>
                         <h3 className="text-2xl font-semibold text-accent mb-2">Estimula Baby</h3>
                         <p className="text-accent leading-relaxed text-base text-left">
-                            Estimulação precoce de bebês com desenvolvimento típico e/ou com sinal de alerta para o desenvolvimento.
+                            Estimulação precoce de bebês com desenvolvimento típico e/ou com sinal de alerta para o desenvolvimento. Seu objetivo principal é fortalecer vínculos, prevenir atrasos e potencializar habilidades desde os primeiros meses de vida, por meio de brincadeiras estruturadas e interações significativas.
                         </p>
                     </div>
                     {/* 3 - Orientação Parental */}
