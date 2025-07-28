@@ -19,7 +19,7 @@ function EmpateaPromo() {
             <div className="container mx-auto px-4 flex flex-col items-center gap-4 relative z-10">
                 {/* Título centralizado acima */}
                 <div className="w-full flex justify-center mb-4 mt-0">
-                  <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-500 drop-shadow-lg font-default text-center w-full max-w-3xl">O que é o EmpaTEA?</h2>
+                  <h2 className="text-4xl md:text-5xl font-extrabold text-neutral-700 drop-shadow-lg font-default text-center w-full max-w-3xl">O que é o EmpaTEA?</h2>
                 </div>
                 <div className="w-full flex flex-col md:flex-row items-center gap-12">
                   {/* Left: Texto */}

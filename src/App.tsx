@@ -5,6 +5,7 @@ import CommitmentSection from './components/CommitmentSection';
 import EmpateaPromo from './components/EmpateaPromo';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FreeMaterialsSection from './components/FreeMaterialsSection';
 import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <About />
             <CommitmentSection />
             <EmpateaPromo />
+            <FreeMaterialsSection />
             <Contact />
             <Footer />
             <WhatsAppButton />

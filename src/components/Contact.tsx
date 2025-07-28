@@ -5,7 +5,7 @@ function Contact() {
         <section id="contato" className="py-16 bg-primary-700 relative">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-accent-700 text-font mb-4">Entre em Contato</h2>
+                    <h2 className="text-4xl font-bold text-neutral-700 text-font mb-4">Entre em Contato</h2>
                     <p className="text-xl text-accent-900 text-font">Agende sua consulta e dê o primeiro passo</p>
                 </div>
                 {/* Ajuste no grid para telas menores */}
