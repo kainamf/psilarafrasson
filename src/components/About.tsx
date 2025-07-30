@@ -14,7 +14,7 @@ function About() {
                         {/* Coluna da esquerda: texto + cards */}
                         <div className="flex flex-col gap-8 h-full">
                             <div>
-                                <div className="space-y-2 text-accent leading-relaxed text-base md:text-lg mb-2">
+                                <div className="space-y-2 text-accent leading-relaxed text-base md:text-lg mb-2 text-justify">
                                     <p>
                                         Sou psicóloga, autista, especialista em neurodesenvolvimento e apaixonada por escutar o que muitas vezes o mundo insiste em silenciar.
                                     </p>
