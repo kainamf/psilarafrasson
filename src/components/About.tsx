@@ -14,7 +14,7 @@ function About() {
                         {/* Coluna da esquerda: texto + cards */}
                         <div className="flex flex-col gap-8 h-full">
                             <div>
-                                <div className="space-y-2 text-accent leading-relaxed text-base md:text-lg mb-2 text-justify">
+                                <div className="space-y-2 text-accent leading-relaxed text-base md:text-lg mb-2 text-justify" style={{ wordSpacing: '-0.1em' }}>
                                     <p>
                                         Sou psicóloga, autista, especialista em neurodesenvolvimento e apaixonada por escutar o que muitas vezes o mundo insiste em silenciar.
                                     </p>
@@ -29,12 +29,9 @@ function About() {
                             {/* Cards em grid 2x2 */}
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 {/* Formação e Especializações */}
-                                <div className="bg-secondary-700 p-6 rounded-2xl shadow-md w-full">
-                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
-                                        <span className="flex-shrink-0 flex items-center"><Award className="text-primary" size={24} /></span>
-                                        <span>Formação e Especializações</span>
-                                    </h3>
-                                    <ul className="list-disc ml-5 text-accent text-sm">
+                                <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
+                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center"><Award className="text-primary" size={20} /> Formações</h3>
+                                    <ul className="list-disc ml-5 text-accent text-sm text-justify">
                                         <li>Psicóloga formada pela Universidade Positivo</li>
                                         <li>Pós-graduada em:
                                             <ul className="list-disc ml-5 text-sm">
@@ -51,8 +48,8 @@ function About() {
                                 </div>
                                 {/* Posições e Projetos */}
                                 <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Award className="text-primary" size={20} /> Posições e Projetos</h3>
-                                    <ul className="list-disc ml-5 text-accent text-sm">
+                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center"><Award className="text-primary" size={20} /> Posições e Projetos</h3>
+                                    <ul className="list-disc ml-5 text-accent text-sm text-justify">
                                         <li>Supervisora da Comissão de Desenvolvimento Atípico da ABPMC</li>
                                         <li>Diretora de projetos, inovação e sustentabilidade do Instituto TEAproxima, iniciativa que promove inclusão real para pessoas autistas na sociedade</li>
                                         <li>Criadora do curso EmpaTEA – a primeira formação do Brasil em ABA com olhar autista, ética compassiva e foco no atendimento empático</li>
@@ -60,8 +57,8 @@ function About() {
                                 </div>
                                 {/* Certificações */}
                                 <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><BadgeCheck className="text-primary" size={20} /> Certificações</h3>
-                                    <ul className="list-disc ml-5 text-accent text-sm">
+                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center"><BadgeCheck className="text-primary" size={20} /> Certificações</h3>
+                                    <ul className="list-disc ml-5 text-accent text-sm text-justify">
                                         <li>Supervisora ABA certificada QASP-S (internacional)</li>
                                         <li>Coordenadora ABA certificada CABA-BR</li>
                                         <li>Educadora parental pela Positive Discipline Association</li>
@@ -69,8 +66,8 @@ function About() {
                                 </div>
                                 {/* Obras Publicadas */}
                                 <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
-                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2"><Book className="text-primary" size={20} /> Obras Publicadas</h3>
-                                    <ul className="list-disc ml-5 text-accent text-sm">
+                                    <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center"><Book className="text-primary" size={20} /> Obras Publicadas</h3>
+                                    <ul className="list-disc ml-5 text-accent text-sm text-justify">
                                         <li>Criadora do jogo terapêutico Cabeça Dura (Terapia Criativa)</li>
                                         <li>Coautora do livro Rick (Editora Lado A) – sobre habilidades sociais para crianças</li>
                                         <li>Coordenadora do livro Olívia – um livro infantil sobre autismo e empatia, protagonizado por uma coruja autista (lançamento em novembro)</li>
