@@ -15,8 +15,8 @@ function Services() {
                         <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mb-2">
                             <User className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-2">Atuação Clínica</h3>
-                        <p className="text-accent leading-relaxed text-base text-left">
+                        <h3 className="text-2xl font-semibold text-accent mb-2 text-center">Atuação Clínica</h3>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center tracking-tight">
                             Atendimento clínico de crianças, adolescentes e mulheres autistas, neurodivergentes e/ou demandas emocionais, sob a perspectiva da análise do comportamento.
                         </p>
                     </div>
@@ -25,8 +25,8 @@ function Services() {
                         <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mb-2">
                             <Baby className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-2">Estimula Baby</h3>
-                        <p className="text-accent leading-relaxed text-base text-left">
+                        <h3 className="text-2xl font-semibold text-accent mb-2 text-center">Estimula Baby</h3>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center tracking-tight">
                             Estimulação precoce de bebês com desenvolvimento típico e/ou com sinal de alerta para o desenvolvimento. Seu objetivo principal é fortalecer vínculos, prevenir atrasos e potencializar habilidades desde os primeiros meses de vida, por meio de brincadeiras estruturadas e interações significativas.
                         </p>
                     </div>
@@ -35,8 +35,8 @@ function Services() {
                         <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-2">
                             <HeartHandshake className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-2">Orientação Parental</h3>
-                        <p className="text-accent leading-relaxed">
+                        <h3 className="text-2xl font-semibold text-accent mb-2 text-center">Orientação Parental</h3>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center tracking-tight">
                             Orientação parental com o objetivo de auxiliar as famílias a manejarem o comportamento disruptivo das crianças, bem como a desenvolver práticas parentais positivas.
                         </p>
                     </div>
@@ -45,8 +45,8 @@ function Services() {
                         <div className="bg-primary w-16 h-16 rounded-full flex items-center justify-center mb-2">
                             <Users className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-2">Grupos Terapêuticos</h3>
-                        <p className="text-accent leading-relaxed text-base text-left">
+                        <h3 className="text-2xl font-semibold text-accent mb-2 text-center">Grupos Terapêuticos</h3>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center tracking-tight">
                             Grupos terapêuticos de habilidades sociais para crianças, adolescentes, adultos e apoio a mães, promovendo desenvolvimento emocional e social.
                         </p>
                     </div>
@@ -55,8 +55,8 @@ function Services() {
                         <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mb-2">
                             <Lightbulb className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-2">Supervisão Clínica</h3>
-                        <p className="text-accent leading-relaxed text-base text-left">
+                        <h3 className="text-2xl font-semibold text-accent mb-2 text-center">Supervisão Clínica</h3>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center tracking-tight">
                             Supervisão clínica para psicólogas(os) e instituições, com foco em práticas éticas e baseadas em evidências.
                         </p>
                     </div>
@@ -65,8 +65,8 @@ function Services() {
                         <div className="bg-accent w-16 h-16 rounded-full flex items-center justify-center mb-2">
                             <GraduationCap className="text-white" size={28} />
                         </div>
-                        <h3 className="text-2xl font-semibold text-accent mb-2">Palestras e Formações</h3>
-                        <p className="text-accent leading-relaxed text-base text-left">
+                        <h3 className="text-2xl font-semibold text-accent mb-2 text-center">Palestras e Formações</h3>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center tracking-tight">
                             Palestras, formações e consultorias para escolas, clínicas e famílias, promovendo conhecimento, inclusão e práticas positivas.
                         </p>
                     </div>
