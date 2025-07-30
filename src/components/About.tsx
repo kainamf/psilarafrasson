@@ -8,7 +8,7 @@ function About() {
             <section id="sobre" className="py-16 bg-secondary-300 relative">
                 <div className="container mx-auto px-4 sm:px-6">
                     {/* Título centralizado no topo */}
-                    <h2 className="text-4xl font-bold text-neutral-700 mb-12 text-center w-full">Quem é a psicóloga Lara Frasson?</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-neutral-700 mb-12 text-center w-full">Quem é a psicóloga Lara Frasson?</h2>
                     {/* Grid principal: texto à esquerda, Instagram à direita */}
                     <div className="grid md:grid-cols-[70%_30%] gap-12 items-start mb-12 h-full">
                         {/* Coluna da esquerda: texto + cards */}

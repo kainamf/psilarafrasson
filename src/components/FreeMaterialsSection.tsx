@@ -17,7 +17,7 @@ function FreeMaterialsSection() {
             <div className="absolute left-0 top-0 w-24 h-24 bg-accent/20 rounded-full blur-2xl z-0 animate-pulse-slow" style={{filter:'blur(24px)'}} />
             <div className="container mx-auto px-4 flex flex-col items-center gap-8 relative z-10">
                 {/* Título centralizado acima */}
-                <h2 className="text-4xl font-bold text-neutral-700 mb-2 flex items-center justify-center gap-2 w-full text-center">
+                <h2 className="text-3xl md:text-4xl font-bold text-neutral-700 mb-2 flex items-center justify-center gap-2 w-full text-center">
                     Materiais Gratuitos <span role="img" aria-label="livro">📚</span>
                 </h2>
                 <div className="w-full flex flex-col lg:flex-row items-stretch justify-center gap-10 lg:gap-0">

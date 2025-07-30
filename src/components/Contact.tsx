@@ -5,15 +5,15 @@ function Contact() {
         <section id="contato" className="py-16 bg-primary-700 relative">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-neutral-700 text-font mb-4">Entre em Contato</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-neutral-700 text-font mb-4">Entre em Contato</h2>
                     <p className="text-xl text-accent-900 text-font">Agende sua consulta e dê o primeiro passo</p>
                 </div>
                 {/* Ajuste no grid para telas menores */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch w-full mx-auto">
                     <div className="space-y-4 flex flex-col">
                         {/* Informações de Contato */}
-                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
-                            <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Informações de Contato</h3>
+                        <div className="bg-primary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
+                            <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6 text-center">Informações de Contato</h3>
                             <div className="flex flex-col gap-y-1">
                                 {/* WhatsApp */}
                                 <a
@@ -101,7 +101,7 @@ function Contact() {
                         </div>
                         {/* Horário de Atendimento */}
                         <div className="bg-primary-100 p-6 rounded-2xl shadow-lg w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ maxHeight: '700px', overflowY: 'auto' }}>
-                            <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6">Horário de Atendimento</h3>
+                            <h3 className="text-2xl font-semibold text-accent-700 text-font mb-6 text-center">Horário de Atendimento</h3>
                             <div className="space-y-2">
                                 <div className="flex justify-between">
                                     <span>Segunda a Sexta:</span>
@@ -120,10 +120,8 @@ function Contact() {
                     </div>
 
                     {/* Localização */}
-                    <div className="bg-primary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto" style={{ minHeight: '350px' }}>
-                        <div className="p-6 border-b">
-                            <h3 className="text-xl font-semibold text-accent">Localização</h3>
-                        </div>
+                    <div className="bg-primary-100 rounded-2xl shadow-lg overflow-hidden flex flex-col h-full min-h-[350px] w-full max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl mx-auto">
+                        {/* Título 'Localização' removido */}
                         <div className="flex-1 w-full h-full min-h-[350px]" style={{ minHeight: '350px' }}>
                             <iframe
                                 src="https://www.google.com/maps?q=Rua+Albino+Silva,+455,+Bom+Retiro,+Curitiba,+PR&output=embed"
