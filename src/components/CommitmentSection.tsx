@@ -6,20 +6,20 @@ function CommitmentSection() {
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row gap-8 items-stretch justify-center">
                     {/* Meu Compromisso */}
-                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
-                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-center">
+                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center">
                             <HeartHandshake className="text-primary" size={24} /> Meu Compromisso
                         </h3>
-                        <p className="text-accent text-base">
+                        <p className="text-accent text-base text-justify">
                             Meu compromisso é escutar com empatia, respeitar a singularidade de cada pessoa e promover uma psicologia ética, humana e inclusiva. Acredito que cada história merece atenção verdadeira e que o cuidado só faz sentido quando é construído junto, com sensibilidade e responsabilidade.
                         </p>
                     </div>
                     {/* Propósito */}
-                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
-                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-center">
+                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center">
                             <Lightbulb className="text-primary" size={24} /> Propósito
                         </h3>
-                        <p className="text-accent text-base">
+                        <p className="text-accent text-base text-justify">
                             Oferecer um espaço seguro, onde ciência e acolhimento caminham juntos, para transformar o olhar sobre o desenvolvimento infantil e a neurodiversidade. A cada atendimento, supervisão ou projeto, busco plantar uma semente de mudança e inclusão.
                         </p>
                     </div>
@@ -35,20 +35,20 @@ function CommitmentSection() {
                         </div>
                     </div>
                     {/* Missão */}
-                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
-                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-center">
+                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center">
                             <Target className="text-primary" size={24} /> Missão
                         </h3>
-                        <p className="text-accent text-base">
+                        <p className="text-accent text-base text-justify">
                             Promover o desenvolvimento, o bem-estar e o protagonismo de pessoas autistas, oferecendo intervenções éticas, sensíveis e baseadas em evidências. Quero construir caminhos de autonomia e pertencimento, para que cada pessoa possa ser quem é, com segurança e respeito.
                         </p>
                     </div>
                     {/* Valores */}
-                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-start">
-                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2">
+                    <div className="flex-1 min-w-[220px] bg-primary-300 p-6 rounded-2xl shadow-md flex flex-col items-center">
+                        <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center">
                             <Gem className="text-primary" size={24} /> Valores
                         </h3>
-                        <ul className="list-disc ml-5 text-accent text-base">
+                        <ul className="list-disc ml-5 text-accent text-base text-justify">
                             <li>Escuta autêntica</li>
                             <li>Neurodiversidade como potência</li>
                             <li>Ética e evidência</li>
