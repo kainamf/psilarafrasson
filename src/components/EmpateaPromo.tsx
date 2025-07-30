@@ -24,7 +24,7 @@ function EmpateaPromo() {
                 <div className="w-full flex flex-col md:flex-row items-center gap-12">
                   {/* Left: Texto */}
                   <div className="flex-1 flex flex-col items-start justify-center animate-fade-in-up font-default">
-                    <div ref={textBlockRef} className="w-full bg-tertiary-700/90 rounded-2xl p-8 shadow-lg flex flex-col items-start mb-4">
+                    <div ref={textBlockRef} className="w-full bg-tertiary-700/90 rounded-2xl p-8 shadow-lg flex flex-col items-start">
                         <p className="text-xl text-accent mb-4 font-semibold font-default text-justify">O EmpaTEA não é só um curso.<br />É uma jornada criada por quem vive por dentro o que muitos só estudam por fora.</p>
                         <p className="text-lg text-accent mb-4 font-default text-justify">É um espaço de capacitação ética e afetiva pra quem quer atender pessoas autistas com respeito, sensibilidade e ciência — sem apagar quem elas são.</p>
                         <p className="text-lg text-accent mb-4 font-default text-justify">Aqui, você vai aprender a ser um terapeuta de verdade.<br />Daqueles que escutam mais do que corrigem.<br />Que sabem o que é reforço, mas também sabem o que é cuidado.<br />Que constroem vínculo, ao invés de impor protocolo.</p>
