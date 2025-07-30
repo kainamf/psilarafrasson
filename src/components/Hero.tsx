@@ -11,7 +11,7 @@ function Hero() {
                         <img 
                             src="/assets/images/laraLogo.png" 
                             alt="Logo Lara Frasson" 
-                            className="w-72 mx-auto"
+                            className="w-48 md:w-72 mx-auto"
                         />
 
                         <h1 className="text-2xl md:text-3xl font-bold text-neutral-500 mb-2 leading-tight">
