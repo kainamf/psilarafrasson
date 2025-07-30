@@ -32,10 +32,10 @@ function FreeMaterialsSection() {
                     </div>
                     {/* Texto à direita, alinhado à linha central */}
                     <div ref={textBlockRef} className="flex-1 flex flex-col justify-center items-start text-left gap-6 pl-0 lg:pl-6">
-                        <p className="text-lg text-accent max-w-2xl text-justify">
+                        <p className="text-lg text-accent max-w-2xl text-justify text-center" style={{ wordSpacing: '-0.1em' }}>
                             Aqui você encontra materiais de apoio, guias e recursos gratuitos para famílias, profissionais e todos que desejam promover inclusão, autonomia e conhecimento sobre neurodesenvolvimento.
                         </p>
-                        <p className="text-base text-neutral-700 max-w-2xl text-justify">
+                        <p className="text-base text-neutral-700 max-w-2xl text-justify text-center" style={{ wordSpacing: '-0.1em' }}>
                             Os conteúdos são preparados com carinho e responsabilidade, para apoiar sua prática, estudos ou rotina familiar. Sinta-se à vontade para baixar, compartilhar e multiplicar informação de qualidade!
                         </p>
                     </div>
