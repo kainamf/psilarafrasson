@@ -33,14 +33,13 @@ function EmpateaPromo() {
                   </div>
                   {/* Right: Image com animação */}
                   <div className="flex-1 flex justify-center items-center animate-fade-in">
-                    <div className="relative w-full max-w-lg group">
+                    <div className="relative w-full max-w-md group">
                         <img
-                          src="/assets/images/laraToys.jpeg"
+                          src="/assets/images/laraToys.JPG"
                           alt="Lara com brinquedos"
-                          className="rounded-3xl shadow-2xl border-4 border-tertiary-700 object-cover w-full group-hover:scale-105 transition-transform duration-500"
-                          style={imgHeight ? { height: imgHeight } : { height: 'auto', minHeight: 200 }}
+                          className="rounded-[2rem] shadow-2xl border-4 border-tertiary-700 object-cover w-full max-w-[350px] max-h-[350px]"
                         />
-                        <div className="absolute -top-8 -right-8 bg-white rounded-full p-3 shadow-md border-2 border-tertiary-700">
+                        <div className="absolute -top-2 -right-2 bg-white rounded-full p-2 shadow-md border-2 border-tertiary-700">
                             <img src="/assets/images/empateaLogo.png" alt="EmpaTEA Logo mini" className="w-20" />
                         </div>
                     </div>
