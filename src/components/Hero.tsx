@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react';
-import { WHATSAPP_LINK } from '../constants';
+import { WHATSAPP_LINK, CRP } from '../constants';
 
 function Hero() {
     return (
@@ -15,7 +15,7 @@ function Hero() {
                         />
 
                         <h1 className="text-2xl md:text-3xl font-bold text-neutral-500 mb-2 leading-tight text-center">
-                            Psicóloga Lara Frasson | Atendimento clínico com foco em autismo, neurodesenvolvimento e empatia
+                            Psicóloga Lara Frasson CRP {CRP} | Atendimento clínico com foco em autismo, neurodesenvolvimento e empatia
                         </h1>
                         <div className="mt-4 mb-6">
                             <blockquote className="text-lg md:text-xl italic text-stone-700 font-medium">
