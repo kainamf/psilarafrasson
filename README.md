@@ -35,7 +35,7 @@ Este site foi criado para apresentar os serviços da psicóloga Lara Frasson, qu
 ## 📁 Estrutura do Projeto
 
 ```
-psilrafrasson/
+psilarafrasson/
 ├── public/
 │   ├── index.html
 │   ├── manifest.json
@@ -77,8 +77,8 @@ psilrafrasson/
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/kainamf/psilrafrasson.git
-   cd psilrafrasson
+   git clone https://github.com/kainamf/psilarafrasson.git
+   cd psilarafrasson
    ```
 
 2. **Instale as dependências**:
