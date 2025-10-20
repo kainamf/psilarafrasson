@@ -63,7 +63,7 @@ function Empatea() {
                         <div className="bg-white/90 p-8 rounded-2xl my-12 shadow-lg border-l-4 border-empatea-green">
                             <p className="text-lg italic text-gray-800 font-medium">
                                 "Se você quer ser o tipo de profissional que inspira confiança em famílias autistas, 
-                                é preciso mais do que técnica — é preciso ética, empatia e responsabilidade."
+                                é preciso mais do que técnica, é preciso ética, empatia e responsabilidade."
                             </p>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ function Empatea() {
                         
                         <div className="space-y-6 text-lg text-gray-700">
                             <p>
-                                Sempre acreditei que o que diferencia um bom terapeuta não é só o domínio técnico — 
+                                Sempre acreditei que o que diferencia um bom terapeuta não é só o domínio técnico, 
                                 é a forma de ver o outro.
                             </p>
                             <p>
@@ -262,7 +262,7 @@ function Empatea() {
                                 Um curso para quem quer unir método e sensibilidade, precisão e escuta, técnica e empatia.
                             </p>
                             <p>
-                                Porque ser terapeuta não é apenas aplicar intervenções — é ser ponte. 
+                                Porque ser terapeuta não é apenas aplicar intervenções, é ser ponte. 
                                 E se você não quer ser "mais um", mas alguém que realmente transforma percursos, 
                                 esse curso é para você.
                             </p>
