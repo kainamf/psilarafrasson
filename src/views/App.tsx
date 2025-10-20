@@ -1,26 +1,15 @@
-import Hero from '../components/Hero';
-import Services from '../components/Services';
-import About from '../components/About';
-import CommitmentSection from '../components/CommitmentSection';
-import EmpateaPromo from '../components/EmpateaPromo';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
-import FreeMaterialsSection from '../components/FreeMaterialsSection';
-import WhatsAppButton from '../components/WhatsAppButton';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Empatea from './Empatea';
 
 function App() {
     return (
-        <div className="min-h-screen bg-white">
-            <Hero />
-            <Services />
-            <About />
-            <CommitmentSection />
-            <EmpateaPromo />
-            <FreeMaterialsSection />
-            <Contact />
-            <Footer />
-            <WhatsAppButton />
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/empatea" element={<Empatea />} />
+            </Routes>
+        </Router>
     );
 }
 
