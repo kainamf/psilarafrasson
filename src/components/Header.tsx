@@ -3,15 +3,20 @@ import { Home } from 'lucide-react';
 
 function Header() {
     return (
-        <header className="bg-white shadow-sm sticky top-0 z-50">
+        <header className="bg-white shadow-sm sticky top-0 z-50 border-b-2 border-empatea-green/20">
             <div className="container mx-auto px-4 py-4">
                 <div className="flex items-center justify-between">
-                    <Link to="/" className="flex items-center gap-2 text-gray-700 hover:text-purple-600 transition-colors">
+                    <Link to="/" className="flex items-center gap-2 text-gray-700 hover:text-empatea-green transition-colors">
                         <Home className="w-5 h-5" />
                         <span className="font-semibold">Voltar para o site</span>
                     </Link>
                     
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-4">
+                        <img 
+                            src="/assets/images/empateaLogo.png" 
+                            alt="Logo EmpaTEA" 
+                            className="h-12"
+                        />
                         <img 
                             src="/assets/images/laraLogo.png" 
                             alt="Logo Lara Frasson" 

@@ -36,6 +36,21 @@ export default {
           DEFAULT: '#303030',
         },
         background: '#fafafa',
+        // Cores do EmpaTEA
+        empatea: {
+          green: '#64A555',     // Verde
+          red: '#BF3930',       // Vermelho
+          yellow: '#EEC666',    // Amarelo
+          blue: '#659AC4',      // Azul
+          'green-light': '#8BC67F',
+          'green-dark': '#4D8445',
+          'red-light': '#D9534F',
+          'red-dark': '#A02F28',
+          'yellow-light': '#F5D98F',
+          'yellow-dark': '#E4B84D',
+          'blue-light': '#8FB5D6',
+          'blue-dark': '#4D7FA0',
+        },
       },
     },
   },
