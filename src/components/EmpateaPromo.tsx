@@ -40,7 +40,7 @@ function EmpateaPromo() {
                           className="rounded-[2rem] shadow-2xl border-4 border-tertiary-700 object-cover w-full max-w-[350px] max-h-[350px]"
                         />
                         <div className="absolute -top-2 -right-2 bg-white rounded-full p-2 shadow-md border-2 border-tertiary-700">
-                            <img src="/assets/images/empateaLogo.png" alt="EmpaTEA Logo mini" className="w-20" />
+                            <img src="/assets/images/empaTeaLogo.png" alt="EmpaTEA Logo mini" className="w-20" />
                         </div>
                     </div>
                   </div>

@@ -13,7 +13,7 @@ function Header() {
                     
                     <div className="flex items-center gap-4">
                         <img 
-                            src="/assets/images/empateaLogo.png" 
+                            src="/assets/images/empaTeaLogo.png" 
                             alt="Logo EmpaTEA" 
                             className="h-12"
                         />
