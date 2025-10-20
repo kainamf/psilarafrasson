@@ -12,10 +12,10 @@ function Home() {
     return (
         <div className="min-h-screen bg-white">
             <Hero />
-            <Services />
             <About />
-            <CommitmentSection />
+            <Services />
             <EmpateaPromo />
+            <CommitmentSection />
             <FreeMaterialsSection />
             <Contact />
             <Footer />

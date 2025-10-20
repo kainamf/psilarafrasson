@@ -1,6 +1,5 @@
 import { useRef, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import {WHATSAPP_LINK} from '../constants';
 
 function EmpateaPromo() {
     const textBlockRef = useRef<HTMLDivElement>(null);
@@ -47,22 +46,14 @@ function EmpateaPromo() {
                   </div>
                 </div>
             </div>
-            {/* Botões centralizados abaixo do texto e da imagem */}
-            <div className="w-full flex justify-center mt-8 gap-4 flex-wrap">
+            {/* Botão centralizado abaixo do texto e da imagem */}
+            <div className="w-full flex justify-center mt-8">
               <Link
                 to="/empatea"
-                className="px-6 py-2.5 bg-tertiary-900 text-accent font-bold rounded-full shadow-xl border-2 border-tertiary-700 text-lg hover:scale-105 hover:bg-tertiary-700 transition-all duration-300 font-default text-center"
-              >
-                Saiba mais sobre o EmpaTEA
-              </Link>
-              <a
-                href={`${WHATSAPP_LINK}?text=Olá! Gostaria de saber mais sobre o curso EmpaTEA.`}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="px-6 py-2.5 bg-tertiary-700 text-accent font-bold rounded-full shadow-xl border-2 border-tertiary-700 text-lg hover:scale-105 hover:bg-tertiary-900/90 transition-all duration-300 animate-bounce-slow font-default text-center"
               >
-                Falar no WhatsApp
-              </a>
+                Saiba Mais
+              </Link>
             </div>
             {/* CSS para animações customizadas */}
             <style>{`
