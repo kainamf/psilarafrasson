@@ -7,3 +7,6 @@ export const INSTAGRAM_LINK = 'https://www.instagram.com/psicolarafrasson/';
 export const LINKEDIN_LINK = 'https://www.linkedin.com/in/lara-frasson-0881b11b0/';
 export const FACEBOOK_LINK = 'https://www.facebook.com/psicolarafrasson/';
 export const CRP = '08/33121';
+
+// Links de produtos/cursos
+export const EMPATEA_HOTMART_LINK = 'https://pay.hotmart.com/P101412929E?bid=1760913298487';

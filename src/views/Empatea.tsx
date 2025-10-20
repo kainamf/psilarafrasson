@@ -2,11 +2,12 @@ import { Heart, BookOpen, Users, Award, Sparkles, ArrowRight } from 'lucide-reac
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import WhatsAppButton from '../components/WhatsAppButton';
+import { EMPATEA_HOTMART_LINK } from '../constants';
 
 function Empatea() {
     const handleCTA = () => {
-        // Link para pré-inscrição do curso
-        window.open('https://wa.me/5511999999999?text=Olá! Gostaria de saber mais sobre o EmpaTEA', '_blank');
+        // Redireciona para a página de venda do Hotmart
+        window.open(EMPATEA_HOTMART_LINK, '_blank');
     };
 
     return (
@@ -35,7 +36,7 @@ function Empatea() {
                             onClick={handleCTA}
                             className="mt-8 bg-white text-empatea-green px-8 py-4 rounded-full text-lg font-bold hover:bg-empatea-yellow hover:text-white hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2 mx-auto"
                         >
-                            Garantir minha vaga com valor promocional
+                            Inscreva-se agora com desconto especial
                             <ArrowRight className="w-5 h-5" />
                         </button>
                     </div>
@@ -84,6 +85,16 @@ function Empatea() {
                             Psicólogos, terapeutas ocupacionais, fonoaudiólogos, pedagogos, estudantes e todos os 
                             profissionais da saúde e educação que desejam atuar com ética, empatia e respeito às diferenças.
                         </p>
+                        
+                        <div className="text-center mt-8">
+                            <button
+                                onClick={handleCTA}
+                                className="bg-white text-empatea-blue px-8 py-4 rounded-full text-lg font-bold hover:bg-empatea-yellow hover:text-white hover:shadow-xl transform hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
+                            >
+                                Quero me capacitar agora
+                                <ArrowRight className="w-5 h-5" />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -256,6 +267,16 @@ function Empatea() {
                                 esse curso é para você.
                             </p>
                         </div>
+                        
+                        <div className="text-center mt-8">
+                            <button
+                                onClick={handleCTA}
+                                className="bg-empatea-green text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-empatea-blue hover:shadow-xl transform hover:scale-105 transition-all duration-300 inline-flex items-center gap-2"
+                            >
+                                Começar minha transformação
+                                <ArrowRight className="w-5 h-5" />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -278,21 +299,23 @@ function Empatea() {
                     </div>
                     
                     <p className="text-2xl font-light max-w-2xl mx-auto">
-                        💬 Pré-inscrição disponível — garanta sua vaga com valor promocional
+                        🎯 Vagas limitadas com valor promocional
                     </p>
 
                     <button
                         onClick={handleCTA}
                         className="mt-8 bg-white text-empatea-blue px-10 py-5 rounded-full text-xl font-bold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center gap-3 mx-auto hover:bg-empatea-yellow hover:text-white"
                     >
-                        Quero me inscrever no EmpaTEA
+                        Garantir minha vaga agora
                         <ArrowRight className="w-6 h-6" />
                     </button>
 
                     <div className="pt-8">
                         <p className="text-lg opacity-90 max-w-3xl mx-auto">
-                            ✨ Se você escolheu trabalhar com pessoas autistas e neurodivergentes, sabe que não basta aplicar técnicas. 
-                            É preciso escutar, acolher e respeitar cada história.
+                            ✨ Transforme sua prática profissional e seja o terapeuta que você gostaria de ter conhecido.
+                        </p>
+                        <p className="text-sm opacity-75 mt-4">
+                            Acesso imediato após a confirmação da compra
                         </p>
                     </div>
                 </div>
