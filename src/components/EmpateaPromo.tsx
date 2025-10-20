@@ -52,7 +52,7 @@ function EmpateaPromo() {
                 to="/empatea"
                 className="px-6 py-2.5 bg-tertiary-700 text-accent font-bold rounded-full shadow-xl border-2 border-tertiary-700 text-lg hover:scale-105 hover:bg-tertiary-900/90 transition-all duration-300 animate-bounce-slow font-default text-center"
               >
-                Saiba Mais
+                Quero saber mais
               </Link>
             </div>
             {/* CSS para animações customizadas */}
