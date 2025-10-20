@@ -17,11 +17,14 @@ function Empatea() {
             <section className="relative bg-empatea-green py-20 px-4">
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center space-y-6">
-                        <div className="inline-block">
-                            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4">
-                                EmpaTEA
-                            </h1>
-                            <div className="h-1 bg-white/80 rounded-full"></div>
+                        <div className="flex justify-center mb-6">
+                            <div className="bg-white rounded-full p-6 shadow-xl">
+                                <img 
+                                    src="/assets/images/empaTeaLogo.png" 
+                                    alt="EmpaTEA" 
+                                    className="h-32 md:h-40 w-auto"
+                                />
+                            </div>
                         </div>
                         
                         <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto font-light">
