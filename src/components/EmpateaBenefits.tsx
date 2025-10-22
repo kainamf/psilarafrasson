@@ -14,11 +14,11 @@ function EmpateaBenefits() {
     ];
 
     return (
-        <section className="py-12 px-4 bg-white">
+        <section className="py-12 px-4">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-6">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800">Benefícios do EmpaTEA</h2>
-                    <p className="text-base md:text-lg text-gray-600 mt-2">Tudo que você recebe ao adquirir o curso — conteúdo prático, suporte e comunidade.</p>
+                    <h2 className="text-2xl md:text-3xl font-bold">Benefícios do EmpaTEA</h2>
+                    <p className="text-base md:text-lg mt-2">Tudo que você recebe ao adquirir o curso — conteúdo prático, suporte e comunidade.</p>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-4 max-w-4xl mx-auto">
@@ -32,7 +32,6 @@ function EmpateaBenefits() {
 
                 <div className="max-w-2xl mx-auto mt-6">
                     <div className="bg-empatea-yellow/10 border border-empatea-yellow rounded-lg p-4 text-center">
-                        <p className="text-sm text-gray-700">EmpaTEA — Lara Helena de Souza Frasson</p>
                         <p className="text-lg md:text-xl font-semibold text-gray-800 mt-1">12 x de R$ 92,77 • Ou R$ 897,00 à vista</p>
                         <p className="text-sm text-gray-600 mt-1">Invista no profissional que você deseja ser. Invista em dignidade, inclusão e transformação.</p>
                     </div>
