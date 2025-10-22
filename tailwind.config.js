@@ -52,6 +52,9 @@ export default {
           'blue-dark': '#4D7FA0',
         },
       },
+      boxShadow: {
+        cta: '0 8px 24px rgba(0,0,0,0.18)',
+      },
     },
   },
   plugins: [],
