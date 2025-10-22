@@ -4,24 +4,39 @@ import Footer from '../components/Footer';
 
 const faqs = [
   {
-    q: 'O que é o EmpaTEA? ',
-    a: 'O EmpaTEA é uma formação que une ciência, sensibilidade e vivência autista para transformar a atuação de profissionais no atendimento a pessoas neurodivergentes. Desenvolvido por uma psicóloga autista, o curso foca em ABA humanizada, escuta e vínculo.'
+    q: 'Quem avaliou EmpaTEA: Transformando o Cuidado com Pessoas no Espectro Autista?',
+    a: `Todas as avaliações mostradas aqui foram feitas por pessoas reais que compraram e deram sua opinião sobre o curso. Quando alguém compra um curso através da Hotmart, a pessoa recebe um convite para avaliar o conteúdo dele. A nota nesta página é o resultado da média das avaliações feitas por estes compradores, que vai de 1 a 5 estrelas.`
   },
   {
-    q: 'Como é a metodologia?',
-    a: 'A metodologia A.L.M.A. — Autenticidade, Linguagem, Mudança e Acolhimento — forma profissionais com foco em ética, presença e empatia.'
+    q: 'Como funciona o “Prazo de Garantia”?',
+    a: `O Prazo de Garantia é o período que você tem para pedir o reembolso integral do valor pago pela sua compra, caso o produto não seja satisfatório.
+
+Assim que solicitado, seu reembolso é processado automaticamente pela Hotmart em até 5 dias. Para pagamentos com boleto bancário, você precisa preencher uma conta bancária para receber o dinheiro. Passados os 5 dias, o valor poderá ser identificado em sua conta em até 7 dias úteis. Já o estorno da fatura do cartão de crédito varia de acordo com o meio de pagamento e pode ocorrer na fatura atual ou na seguinte.`
   },
   {
-    q: 'Quais são os conteúdos do curso?',
-    a: 'São 45 aulas práticas, supervisões ao vivo mensais, aulas bônus, e-book, materiais de apoio e certificado de conclusão. O curso aborda desde princípios da ABA até estratégias práticas, comunicação e inclusão.'
+    q: 'O que é e como funciona o Certificado de Conclusão digital?',
+    a: `Alguns cursos online oferecem um certificado digital de conclusão. Alunos podem emitir esse certificado ao final do curso ou entrando em contato com o Autor ou Autora. Esses certificados podem ser compartilhados em redes sociais como o LinkedIn e inseridos em informações curriculares.`
   },
   {
-    q: 'Como recebo o acesso ao curso?',
-    a: 'Você recebe um e-mail com instruções de acesso após a confirmação do pagamento. Também pode acessar via área do aluno na Hotmart.'
+    q: 'Quais diferenciais os produtos podem ter?',
+    a: `Os produtos na Hotmart têm diferenciais que mudam de acordo com o tipo de produto e a disponibilidade.
+
+Por exemplo, produtos do tipo "Cursos online" podem ou não oferecer certificado digital de conclusão. Caso o certificado esteja disponível, alunos podem emiti-lo dentro do curso ou entrando em contato com o(a) Autor(a). Os certificados podem ser compartilhados em redes sociais como o LinkedIn e inseridos em informações curriculares.
+
+A garantia também é um diferencial dos nossos produtos e pode variar de 7, 15 ou 30 dias, de acordo com o oferecido pelo Autor(a).
+
+Para ver os diferenciais disponíveis neste produto, basta checar a seção Diferenciais.`
   },
   {
-    q: 'Qual a garantia?',
-    a: 'A garantia padrão é de 7 dias, oferecendo reembolso integral caso o produto não seja satisfatório.'
+    q: 'Como acesso meu produto?',
+    a: `Você receberá o acesso a EmpaTEA: Transformando o Cuidado com Pessoas no Espectro Autista por email. Pode ser um curso online, um ebook, uma série de videoaulas, um serviço, evento, etc. O conteúdo será acessado ou baixado através de um computador, celular, tablet ou outro dispositivo digital.
+
+Você também pode acessar o produto comprado nesta página:
+01 - Faça login clicando em\n Entrar \n02 - Acesse o menu lateral, clique em\n Minha conta \n03 - Clique em\n Minhas compras \n\nEm "Minhas compras" estarão todos os produtos que você já comprou!`
+  },
+  {
+    q: 'Tenho interesse neste curso, como posso comprar?',
+    a: `Para comprar este curso, clique no botão “Comprar”. Lembre-se de que nem todos os cursos estarão sempre disponíveis para compra. É possível que o Autor ou Autora esteja preparando uma nova turma ainda sem inscrições abertas.`
   }
 ];
 
