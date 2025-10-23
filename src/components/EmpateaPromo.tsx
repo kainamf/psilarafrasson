@@ -33,14 +33,14 @@ function EmpateaPromo() {
                   </div>
                   {/* Right: Image com animação */}
                   <div className="flex-1 flex justify-center items-center animate-fade-in">
-                    <div className="relative w-full max-w-md group">
+                    <div className="relative inline-block">
                         <img
                           src="/assets/images/laraToys.JPG"
                           alt="Lara com brinquedos"
                           className="rounded-[2rem] shadow-2xl border-4 border-tertiary-700 object-cover w-full max-w-[350px] max-h-[350px]"
                         />
-                        <div className="absolute -top-2 -right-2 bg-white rounded-full p-2 shadow-md border-2 border-tertiary-700">
-                            <img src="/assets/images/empaTeaLogo.png" alt="EmpaTEA Logo mini" className="w-20" />
+                        <div className="absolute -top-6 -right-6 bg-white rounded-full p-2 shadow-md border-2 border-tertiary-700">
+                            <img src="/assets/images/empaTeaLogo.png" alt="EmpaTEA Logo mini" className="w-24" />
                         </div>
                     </div>
                   </div>
