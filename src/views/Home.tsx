@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Hero from '../components/Hero';
 import Services from '../components/Services';
 import About from '../components/About';
@@ -9,6 +10,10 @@ import FreeMaterialsSection from '../components/FreeMaterialsSection';
 import WhatsAppButton from '../components/WhatsAppButton';
 
 function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className="min-h-screen bg-white">
             <Hero />

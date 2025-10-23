@@ -1,4 +1,5 @@
 import { Heart, BookOpen, Users, Award, Sparkles, ArrowRight } from 'lucide-react';
+import { useEffect } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import EmpateaBenefits from '../components/EmpateaBenefits';
@@ -9,6 +10,9 @@ import EmpateaFAQ from '../components/EmpateaFAQ';
 import EmpateaFooter from '../components/EmpateaFooter';
 
 function Empatea() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className="min-h-screen bg-white">
