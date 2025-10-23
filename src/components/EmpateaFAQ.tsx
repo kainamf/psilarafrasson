@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function EmpateaFAQ() {
   return (
     <div className="max-w-6xl mx-auto">
