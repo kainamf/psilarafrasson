@@ -8,6 +8,7 @@ import EmpateaWho from '../components/EmpateaWho';
 import EmpateaFAQ from '../components/EmpateaFAQ';
 import EmpateaFooter from '../components/EmpateaFooter';
 import { EMPATEA_HOTMART_LINK } from '../constants';
+import { Helmet } from 'react-helmet-async';
 
 function Empatea() {
     const handleCTA = () => {
@@ -17,6 +18,24 @@ function Empatea() {
 
     return (
         <div className="min-h-screen bg-white">
+            <Helmet>
+                <title>EmpaTEA — Curso para atendimento com perspectiva autista</title>
+                <meta name="description" content="EmpaTEA — Curso online com aulas práticas, supervisão e comunidade exclusiva. Acesso imediato e certificado digital." />
+                <link rel="canonical" href="https://yourdomain.com/empatea" />
+
+                {/* Open Graph */}
+                <meta property="og:title" content="EmpaTEA — Curso para atendimento com perspectiva autista" />
+                <meta property="og:description" content="Aprenda práticas clínicas com foco na vivência autista. Aulas práticas, supervisão e comunidade." />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://yourdomain.com/empatea" />
+                <meta property="og:image" content="/assets/images/empaTeaLogo.png" />
+
+                {/* Twitter */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="EmpaTEA — Curso para atendimento com perspectiva autista" />
+                <meta name="twitter:description" content="Aulas práticas, supervisão e comunidade exclusiva. Acesso imediato e certificado digital." />
+                <meta name="twitter:image" content="/assets/images/empaTeaLogo.png" />
+            </Helmet>
             <Header />
             {/* Hero - AZUL */}
             <section className="relative bg-empatea-blue py-20 px-4">
