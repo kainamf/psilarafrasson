@@ -18,7 +18,7 @@ export default function EmpateaBenefits() {
             <div className="max-w-6xl mx-auto">
                 <header className="mb-8 text-center md:text-left">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-white">Benefícios do EmpaTEA</h2>
-                    <p className="text-white/90 mt-2 max-w-2xl mx-auto md:mx-0">Tudo que você precisa para transformar sua prática: técnica, escuta e comunidade.</p>
+                    <p className="text-white/90 mt-2 max-w-2xl mx-auto md:mx-0">Tudo que você precisa para transformar sua prática: técnica, escuta e empatia.</p>
                 </header>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
