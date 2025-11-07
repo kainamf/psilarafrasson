@@ -49,6 +49,12 @@ function Services() {
                         <p className="text-accent leading-relaxed text-base text-justify text-center" style={{ wordSpacing: '-0.1em' }}>
                             Grupos terapêuticos de habilidades sociais para crianças, adolescentes, adultos e apoio a mães, promovendo desenvolvimento emocional e social.
                         </p>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center" style={{ wordSpacing: '-0.1em' }}>
+                            <strong>NEUROTOUR:</strong> Grupo mensal noturno de passeios externos com adolescentes neurodivergentes, com o objetivo de possibilitar a vivência de experiências que todo adolescente busca vivenciar, como sair sem os pais pela primeira vez.
+                        </p>
+                        <p className="text-accent leading-relaxed text-base text-justify text-center" style={{ wordSpacing: '-0.1em' }}>
+                            <strong>PROTEAGONISTA:</strong> Grupo de habilidades sociais para adultos autistas por meio de jogos teatrais e técnicas baseadas na análise do comportamento.
+                        </p>
                     </div>
                     {/* 5 - Supervisão Clínica */}
                     <div className="bg-primary-700 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-2 flex flex-col items-center text-center">

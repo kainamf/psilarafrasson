@@ -52,6 +52,7 @@ function About() {
                                     <ul className="list-disc ml-5 text-accent text-sm text-justify">
                                         <li>Supervisora da Comissão de Desenvolvimento Atípico da ABPMC</li>
                                         <li>Diretora de projetos, inovação e sustentabilidade do Instituto TEAproxima, iniciativa que promove inclusão real para pessoas autistas na sociedade</li>
+                                        <li>Conselheira presidente da comissão de comunicação social do Conselho Regional de Psicologia do Paraná</li>
                                         <li>Criadora do curso EmpaTEA – a primeira formação do Brasil em ABA com olhar autista, ética compassiva e foco no atendimento empático</li>
                                     </ul>
                                 </div>
@@ -68,7 +69,7 @@ function About() {
                                 <div className="bg-secondary-700 p-6 rounded-2xl shadow-md">
                                     <h3 className="text-xl font-semibold text-accent mb-2 flex items-center gap-2 text-center justify-center"><Book className="text-primary" size={20} /> Obras Publicadas</h3>
                                     <ul className="list-disc ml-5 text-accent text-sm text-justify">
-                                        <li>Criadora do jogo terapêutico Cabeça Dura (Terapia Criativa)</li>
+                                        <li>Criadora dos jogos terapêuticos Cabeça Dura e Sapatos Trocados (Terapia Criativa)</li>
                                         <li>Coautora do livro Rick (Editora Lado A) – sobre habilidades sociais para crianças</li>
                                         <li>Coordenadora do livro Olívia – um livro infantil sobre autismo e empatia, protagonizado por uma coruja autista (lançamento em novembro)</li>
                                     </ul>
