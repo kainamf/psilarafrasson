@@ -15,7 +15,7 @@ export default function EmpateaFAQ() {
         <details className="bg-white border rounded-lg p-4">
           <summary className="font-semibold cursor-pointer text-empatea-green">O que é ensinado?</summary>
           <div className="mt-3 text-gray-700">
-            O EmpaTEA ensina uma prática baseada em ABA compassiva, ética e afirmativa, que considera o assentimento, o respeito à neurodiversidade e o protagonismo da pessoa autista. A prática é guiada pela compaixão e pelo compromisso com a autonomia e a qualidade de vida, conforme discutido na literatura recente e na Nota Técnica da ABPMC e do CFP.
+            O EmpaTEA ensina uma prática baseada em ABA compassiva, ética e neuroafirmativa, que considera o assentimento, o respeito à neurodiversidade e o protagonismo da pessoa autista. A prática é guiada pela compaixão e pelo compromisso com a autonomia e a qualidade de vida, conforme discutido na literatura recente e na Nota Técnica da ABPMC e do CFP.
           </div>
         </details>
 
