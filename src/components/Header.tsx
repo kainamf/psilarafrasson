@@ -9,7 +9,7 @@ function Header() {
                         <img 
                             src="/assets/images/empaTeaLogo.png" 
                             alt="Logo EmpaTEA" 
-                            className="h-44"
+                            className="h-28"
                         />
                     </div>
                 </div>
