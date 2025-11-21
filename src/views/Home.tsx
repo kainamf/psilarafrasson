@@ -8,6 +8,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import FreeMaterialsSection from '../components/FreeMaterialsSection';
 import WhatsAppButton from '../components/WhatsAppButton';
+import CartilhaPreview from '../components/CartilhaPreview';
 
 function Home() {
     useEffect(() => {
@@ -20,6 +21,7 @@ function Home() {
             <About />
             <Services />
             <EmpateaPromo />
+            <CartilhaPreview />
             <CommitmentSection />
             <FreeMaterialsSection />
             <Contact />
