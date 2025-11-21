@@ -20,7 +20,7 @@ function CartilhaSection() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                         <a
-                            href="#comprar"
+                            href="https://pay.hotmart.com/K103062292U?bid=1763757304367"
                             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full font-semibold flex items-center gap-3 transition-all transform hover:scale-105 shadow-lg text-lg"
                         >
                             <Download size={24} />

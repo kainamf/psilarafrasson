@@ -1,4 +1,4 @@
-import { Plane, ArrowRight } from 'lucide-react';
+import { Plane, ArrowRight, MapPin, BookOpen, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 function CartilhaPreview() {
@@ -24,13 +24,16 @@ function CartilhaPreview() {
                         {/* Destaques rápidos */}
                         <div className="grid md:grid-cols-3 gap-6 mb-8">
                             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-                                <p className="text-gray-900 font-semibold">📍 Dicas Práticas</p>
+                                <MapPin className="text-blue-600 mx-auto mb-2" size={32} />
+                                <p className="text-gray-900 font-semibold">Dicas Práticas</p>
                             </div>
                             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-                                <p className="text-gray-900 font-semibold">📚 Baseado em Ciência</p>
+                                <BookOpen className="text-blue-600 mx-auto mb-2" size={32} />
+                                <p className="text-gray-900 font-semibold">Baseado em Ciência</p>
                             </div>
                             <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-                                <p className="text-gray-900 font-semibold">⬇️ Download Imediato</p>
+                                <Download className="text-blue-600 mx-auto mb-2" size={32} />
+                                <p className="text-gray-900 font-semibold">Download Imediato</p>
                             </div>
                         </div>
 
