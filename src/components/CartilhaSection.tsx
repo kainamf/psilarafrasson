@@ -118,7 +118,7 @@ function CartilhaSection() {
                             <img 
                                 src="/assets/images/laraProfissional.jpeg" 
                                 alt="Lara Helena de Souza Frasson" 
-                                className="rounded-full w-40 h-40 object-cover shadow-lg border-4 border-secondary-500"
+                                className="rounded-full w-40 h-40 object-cover object-top shadow-lg border-4 border-secondary-500"
                             />
                         </div>
                         <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
