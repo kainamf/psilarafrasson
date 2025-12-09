@@ -18,27 +18,27 @@ function Empatea() {
         <div className="min-h-screen bg-white">
             <Navbar />
             {/* Hero - WHITE */}
-            <section className="relative bg-empatea-white py-8 px-4">
+            <section className="relative bg-background py-8 px-4">
                 <EmpateaHero />
             </section>
 
             {/* WhatIs - AZUL */}
-            <section className="py-20 px-4 bg-empatea-blue">
+            <section className="py-20 px-4 bg-primary-500">
                 <EmpateaWhatIs />
             </section>
 
             {/* Who - AMARELO */}
-            <section className="py-16 px-4 bg-empatea-yellow">
+            <section className="py-16 px-4 bg-tertiary-500">
                 <EmpateaWho />
             </section>
 
-            {/* Benefits - VERMELHO */}
-            <section className="py-12 px-4 bg-empatea-red">
+            {/* Benefits - ROSA */}
+            <section className="py-12 px-4 bg-secondary-900">
                 <EmpateaBenefits />
             </section>
 
             {/* FAQ - AZUL (continuação da ordem) */}
-            <section className="py-12 px-4 bg-empatea-blue">
+            <section className="py-12 px-4 bg-primary-500">
                 <EmpateaFAQ />
             </section>
 
