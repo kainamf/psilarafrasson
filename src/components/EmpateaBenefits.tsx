@@ -16,9 +16,10 @@ export default function EmpateaBenefits() {
     return (
         <section className="py-12 px-4">
             <div className="max-w-4xl mx-auto">
-                <header className="mb-8 text-center md:text-left">
-                    <h2 className="text-3xl md:text-4xl font-extrabold text-white">Benefícios do EmpaTEA</h2>
-                    <p className="text-white/90 mt-2 max-w-2xl mx-auto md:mx-0">Tudo que você precisa para transformar sua prática: técnica, escuta e empatia.</p>
+                <header className="mb-8 text-center">
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">Benefícios do EmpaTEA</h2>
+                    <div className="w-16 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto mt-3 mb-4"></div>
+                    <p className="text-gray-800 max-w-2xl mx-auto">Tudo que você precisa para transformar sua prática: técnica, escuta e empatia.</p>
                 </header>
 
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

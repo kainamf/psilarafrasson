@@ -5,7 +5,7 @@ export default function EmpateaWhatIs() {
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">O que é o EmpaTEA?</h2>
-        <div className="h-1 w-24 bg-gray-800 mx-auto rounded-full"></div>
+        <div className="w-16 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto"></div>
       </div>
 
       <div className="prose prose-lg max-w-4xl mx-auto space-y-6 text-white">
