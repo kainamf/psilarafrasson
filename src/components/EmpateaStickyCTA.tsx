@@ -10,7 +10,7 @@ function EmpateaStickyCTA() {
   return (
     <div className="fixed bottom-6 right-6 z-50">
       <div className="flex flex-col items-end gap-2">
-        <div className="bg-empatea-red text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg">Oferta especial</div>
+        <div className="bg-secondary-700 text-white px-3 py-1 rounded-full text-sm font-semibold shadow-lg">Oferta especial</div>
         <button
           onClick={handleClick}
           aria-label="Inscreva-se no EmpaTEA"

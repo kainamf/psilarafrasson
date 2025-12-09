@@ -46,14 +46,14 @@ export default function EmpateaBenefits() {
 
                 <div className="mt-8 md:mt-12 max-w-3xl mx-auto">
                     {/* CARD PRINCIPAL
-      - Adicionado 'bg-red-700' (para combinar com a imagem, já que o código original não tinha cor)
+      - Usando secondary-700 da paleta do site
       - Adicionado 'transition-all' e 'hover:shadow-2xl hover:-translate-y-1' para o efeito dinâmico
     */}
-                    <div className="rounded-2xl overflow-hidden shadow-lg bg-red-700 
+                    <div className="rounded-2xl overflow-hidden shadow-lg bg-secondary-700 
                  transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-1">
 
                         {/* A cor da borda foi mantida via 'style' */}
-                        <div className="p-6 border-t-4" style={{ borderTopColor: '#EEC666' }}>
+                        <div className="p-6 border-t-4" style={{ borderTopColor: '#f2d462' }}>
                             <div className="max-w-3xl mx-auto">
                                 <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] items-center gap-6">
 

@@ -17,7 +17,7 @@ function EmpateaCTA({ label = 'Garantir minha vaga', variant = 'primary', classN
     return (
       <button
         onClick={handleClick}
-        className={`mt-4 bg-white text-empatea-green px-8 py-3 rounded-full text-lg font-bold hover:bg-empatea-green-dark hover:text-white transition-all duration-200 inline-flex items-center gap-2 ${className}`}
+        className={`mt-4 bg-white text-primary-700 px-8 py-3 rounded-full text-lg font-bold hover:bg-primary-500 hover:text-white transition-all duration-200 inline-flex items-center gap-2 ${className}`}
         aria-label={label}
         type="button"
       >
@@ -30,7 +30,7 @@ function EmpateaCTA({ label = 'Garantir minha vaga', variant = 'primary', classN
   return (
     <button
       onClick={handleClick}
-      className={`mt-4 bg-gradient-to-r from-empatea-green to-empatea-green-dark text-white px-8 py-3 rounded-full text-lg font-bold hover:opacity-95 transition-all duration-200 inline-flex items-center gap-2 focus:outline-none focus-visible:ring-4 focus-visible:ring-empatea-green/40 ${className}`}
+      className={`mt-4 bg-gradient-to-r from-primary-500 to-primary-700 text-white px-8 py-3 rounded-full text-lg font-bold hover:opacity-95 transition-all duration-200 inline-flex items-center gap-2 focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-500/40 ${className}`}
       aria-label={label}
       type="button"
     >
