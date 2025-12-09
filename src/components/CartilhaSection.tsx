@@ -114,6 +114,9 @@ function CartilhaSection() {
                 <div className="mb-12 max-w-4xl mx-auto">
                     <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-gray-200">
                     <div className="text-center mb-6">
+                        <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                            Criado por especialista
+                        </h3>
                         <div className="flex justify-center mb-4">
                             <img 
                                 src="/assets/images/laraProfissional.jpeg" 
@@ -121,9 +124,6 @@ function CartilhaSection() {
                                 className="rounded-full w-40 h-40 object-cover object-top shadow-lg border-4 border-secondary-500"
                             />
                         </div>
-                        <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-                            Criado por especialista
-                        </h3>
                         <p className="text-lg text-secondary-700 font-semibold">
                             Lara Helena de Souza Frasson
                         </p>
