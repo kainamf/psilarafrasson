@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import FreeMaterialsSection from '../components/FreeMaterialsSection';
 import WhatsAppButton from '../components/WhatsAppButton';
 import CartilhaPreview from '../components/CartilhaPreview';
+import Navbar from '../components/Navbar';
 
 function Home() {
     useEffect(() => {
@@ -17,6 +18,7 @@ function Home() {
 
     return (
         <div className="min-h-screen bg-white">
+            <Navbar />
             <Hero />
             <About />
             <Services />
