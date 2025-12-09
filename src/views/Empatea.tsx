@@ -22,8 +22,8 @@ function Empatea() {
                 <EmpateaHero />
             </section>
 
-            {/* WhatIs - VERDE */}
-            <section className="py-20 px-4 bg-empatea-green">
+            {/* WhatIs - AZUL */}
+            <section className="py-20 px-4 bg-empatea-blue">
                 <EmpateaWhatIs />
             </section>
 
