@@ -9,17 +9,17 @@ export default function EmpateaFAQ() {
         </div>
 
         <div className="space-y-4">
-          <details className="bg-gradient-to-r from-secondary-50 to-tertiary-50 border-2 border-secondary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-secondary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>Para quem o curso é indicado?</span>
-              <span className="text-secondary-500 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               Para psicólogos, terapeutas ocupacionais, fonoaudiólogos, pedagogos, fisioterapeutas e demais profissionais da saúde e educação interessados em compreender e aplicar a ABA de forma humana, ética e centrada na pessoa autista.
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-primary-50 to-secondary-50 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
             <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>O que é ensinado?</span>
               <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
@@ -29,27 +29,27 @@ export default function EmpateaFAQ() {
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-tertiary-50 to-primary-50 border-2 border-tertiary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-tertiary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>O curso ensina técnicas para aplicar com crianças autistas?</span>
-              <span className="text-tertiary-700 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               Sim, mas vai além disso. O curso aborda princípios, ética, análise funcional e aplicações de práticas baseadas em ABA em contextos clínicos, escolares, sociais e culturais, formando profissionais capazes de pensar e não apenas aplicar técnicas.
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-secondary-50 to-tertiary-50 border-2 border-secondary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-secondary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>Há conteúdo sobre famílias e cuidadores?</span>
-              <span className="text-secondary-500 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               Sim. Um dos módulos é dedicado à capacitação e acolhimento parental, abordando como ensinar sem pressão, validar tentativas e adaptar estratégias às realidades das famílias, conforme evidenciado em décadas de pesquisas sobre intervenção mediada por familiares.
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-primary-50 to-secondary-50 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
             <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>A abordagem do curso é neuroafirmativa?</span>
               <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
@@ -59,20 +59,20 @@ export default function EmpateaFAQ() {
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-tertiary-50 to-primary-50 border-2 border-tertiary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-tertiary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>O curso inclui supervisão ou prática supervisionada?</span>
-              <span className="text-tertiary-700 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               Alguns módulos incluem estudos de caso supervisionados, baseados nas boas práticas descritas pela ABPMC para desenvolvimento técnico e ético do analista do comportamento.
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-secondary-50 to-tertiary-50 border-2 border-secondary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-secondary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>Como o EmpaTEA se diferencia de outras formações em ABA?</span>
-              <span className="text-secondary-500 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               <ul className="list-disc list-inside space-y-2">
@@ -84,7 +84,7 @@ export default function EmpateaFAQ() {
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-primary-50 to-secondary-50 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
             <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>O EmpaTEA substitui uma pós-graduação?</span>
               <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
@@ -94,20 +94,20 @@ export default function EmpateaFAQ() {
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-tertiary-50 to-primary-50 border-2 border-tertiary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-tertiary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>Quem avaliou o curso EmpaTEA: Transformando o Cuidado com Pessoas no Espectro Autista?</span>
-              <span className="text-tertiary-700 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               Todas as avaliações exibidas aqui são reais e foram feitas por pessoas que adquiriram o curso e compartilharam sua experiência de forma espontânea. Quando alguém realiza uma compra pela Hotmart, recebe um convite automático para avaliar o conteúdo. A nota exibida nesta página representa a média das avaliações feitas pelos alunos, variando de 1 a 5 estrelas, e reflete o compromisso do curso com qualidade, ética e relevância.
             </div>
           </details>
 
-          <details className="bg-gradient-to-r from-secondary-50 to-tertiary-50 border-2 border-secondary-300 rounded-xl p-5 hover:shadow-md transition-all group">
-            <summary className="font-semibold cursor-pointer text-secondary-900 flex items-center justify-between">
+          <details className="bg-gradient-to-r from-primary-50 to-primary-100 border-2 border-primary-300 rounded-xl p-5 hover:shadow-md transition-all group">
+            <summary className="font-semibold cursor-pointer text-primary-900 flex items-center justify-between">
               <span>Como funciona o "Prazo de Garantia"?</span>
-              <span className="text-secondary-500 group-open:rotate-180 transition-transform">▼</span>
+              <span className="text-primary-500 group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <div className="mt-4 text-gray-700 leading-relaxed">
               O Prazo de Garantia é o período em que você pode solicitar o reembolso integral do valor pago, caso o curso não atenda às suas expectativas. Assim que o pedido é feito, o reembolso é processado automaticamente pela Hotmart em até 5 dias úteis. Se o pagamento foi realizado por boleto bancário, basta preencher uma conta bancária para receber o valor. Em compras feitas no cartão, o estorno ocorre diretamente na fatura em até 7 dias úteis, conforme o processamento da operadora.
