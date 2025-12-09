@@ -23,14 +23,14 @@ function CartilhaSection() {
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                         <a
                             href="https://pay.hotmart.com/K103062292U?bid=1763757304367"
-                            className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg text-base"
+                            className="bg-primary-500 hover:bg-primary-700 text-white px-6 py-3 rounded-full font-semibold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg text-base"
                         >
                             <Download size={20} />
                             Adquirir Cartilha
                         </a>
                         <a
                             href="#detalhes"
-                            className="bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-full font-semibold border-2 border-blue-600 transition-all text-base"
+                            className="bg-white hover:bg-gray-50 text-gray-900 px-6 py-3 rounded-full font-semibold border-2 border-primary-500 transition-all text-base"
                         >
                             Saiba Mais
                         </a>
@@ -45,8 +45,8 @@ function CartilhaSection() {
                     <div className="grid md:grid-cols-3 gap-6">
                         {/* Dicas Práticas */}
                         <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-200">
-                            <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
-                                <MapPin className="text-blue-600" size={24} />
+                            <div className="bg-primary-100 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+                                <MapPin className="text-primary-700" size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-gray-900 mb-3 text-center">
                                 Dicas Práticas
@@ -58,8 +58,8 @@ function CartilhaSection() {
 
                         {/* Baseado em Ciência */}
                         <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-200">
-                            <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
-                                <BookOpen className="text-blue-600" size={24} />
+                            <div className="bg-secondary-100 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+                                <BookOpen className="text-secondary-700" size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-gray-900 mb-3 text-center">
                                 Baseado em Ciência
@@ -71,8 +71,8 @@ function CartilhaSection() {
 
                         {/* Fácil Acesso */}
                         <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-200">
-                            <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
-                                <Download className="text-blue-600" size={24} />
+                            <div className="bg-tertiary-100 rounded-full w-12 h-12 flex items-center justify-center mb-4 mx-auto">
+                                <Download className="text-tertiary-700" size={24} />
                             </div>
                             <h4 className="text-lg font-bold text-gray-900 mb-3 text-center">
                                 Fácil Acesso
@@ -86,7 +86,7 @@ function CartilhaSection() {
 
                 {/* O que você vai encontrar */}
                 <div className="mb-12 max-w-4xl mx-auto">
-                    <div className="bg-white p-6 md:p-8 rounded-2xl border-2 border-blue-600">
+                    <div className="bg-white p-6 md:p-8 rounded-2xl border-2 border-primary-500">
                         <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">
                             O que você vai encontrar
                         </h3>
@@ -102,7 +102,7 @@ function CartilhaSection() {
                             'Recursos visuais e templates'
                         ].map((item, index) => (
                             <div key={index} className="flex items-start gap-2">
-                                <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
+                                <CheckCircle className="text-primary-500 flex-shrink-0 mt-1" size={20} />
                                 <span className="text-gray-900 text-base">{item}</span>
                             </div>
                         ))}
@@ -118,13 +118,13 @@ function CartilhaSection() {
                             <img 
                                 src="/assets/images/laraProfissional.jpeg" 
                                 alt="Lara Helena de Souza Frasson" 
-                                className="rounded-full w-40 h-40 object-cover shadow-lg border-4 border-blue-600"
+                                className="rounded-full w-40 h-40 object-cover shadow-lg border-4 border-secondary-500"
                             />
                         </div>
                         <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
                             Criado por especialista
                         </h3>
-                        <p className="text-lg text-blue-600 font-semibold">
+                        <p className="text-lg text-secondary-700 font-semibold">
                             Lara Helena de Souza Frasson
                         </p>
                         <p className="text-base text-gray-700">CRP 08/33121 - Autora</p>
@@ -177,7 +177,7 @@ function CartilhaSection() {
 
                 {/* CTA Final */}
                 <div className="max-w-4xl mx-auto">
-                    <div id="comprar" className="bg-blue-600 p-8 rounded-2xl shadow-2xl text-center">
+                    <div id="comprar" className="bg-primary-500 p-8 rounded-2xl shadow-2xl text-center">
                     <Heart className="text-white mx-auto mb-4" size={48} />
                     <h3 className="text-2xl md:text-3xl font-bold text-white mb-3">
                         Pronto para transformar suas viagens?
@@ -197,7 +197,7 @@ function CartilhaSection() {
                         href="https://pay.hotmart.com/K103062292U?bid=1763757304367"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
+                        className="inline-flex items-center gap-2 bg-white text-primary-700 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
                     >
                         <Download size={24} />
                         Adquirir Agora
