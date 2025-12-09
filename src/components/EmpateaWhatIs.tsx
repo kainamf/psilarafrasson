@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function EmpateaWhatIs() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-4xl mx-auto">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">O que é o EmpaTEA?</h2>
         <div className="h-1 w-24 bg-gray-800 mx-auto rounded-full"></div>

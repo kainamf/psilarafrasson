@@ -1,6 +1,6 @@
 export default function EmpateaFAQ() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-4xl mx-auto">
       <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">Perguntas Frequentes</h2>
       <p className="text-white mb-6">Dúvidas rápidas sobre o EmpaTEA. Clique em cada pergunta para abrir a resposta.</p>
 

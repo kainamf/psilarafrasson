@@ -15,7 +15,7 @@ const benefits = [
 export default function EmpateaBenefits() {
     return (
         <section className="py-12 px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-4xl mx-auto">
                 <header className="mb-8 text-center md:text-left">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-white">Benefícios do EmpaTEA</h2>
                     <p className="text-white/90 mt-2 max-w-2xl mx-auto md:mx-0">Tudo que você precisa para transformar sua prática: técnica, escuta e empatia.</p>
@@ -29,27 +29,20 @@ export default function EmpateaBenefits() {
                             tabIndex={0}
                             aria-label={b.title}
                         >
-                            <div className="flex items-start gap-4 w-full">
-                                <div className="flex-shrink-0 w-11 h-11 rounded-full flex items-center justify-center" style={{ backgroundColor: '#64A555' }}>
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M20 6L9 17l-5-5" stroke="#ffffff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                </div>
-                                <div className="min-w-0">
-                                    <h3 className="text-lg font-semibold text-gray-900 truncate">{b.title}</h3>
-                                    <p className="text-sm text-gray-700 mt-1">{b.desc}</p>
-                                </div>
+                            <div className="w-full">
+                                <h3 className="text-lg font-semibold text-gray-900 mb-2">{b.title}</h3>
+                                <p className="text-sm text-gray-700">{b.desc}</p>
                             </div>
                         </article>
                     ))}
                 </div>
 
-                <div className="mt-8 md:mt-12 max-w-3xl mx-auto">
+                <div className="mt-8 md:mt-12 max-w-2xl mx-auto">
                     {/* CARD PRINCIPAL
-      - Usando secondary-700 da paleta do site
+      - Fundo branco com texto preto
       - Adicionado 'transition-all' e 'hover:shadow-2xl hover:-translate-y-1' para o efeito dinâmico
     */}
-                    <div className="rounded-2xl overflow-hidden shadow-lg bg-secondary-700 
+                    <div className="rounded-2xl overflow-hidden shadow-lg bg-white 
                  transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-1">
 
                         {/* A cor da borda foi mantida via 'style' */}
@@ -63,22 +56,22 @@ export default function EmpateaBenefits() {
 
                                             {/* Preço Parcelado */}
                                             <div className="flex items-baseline">
-                                                <p className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight">
+                                                <p className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900 leading-tight">
                                                     R$ 92,77
                                                 </p>
-                                                <span className="text-xs sm:text-sm md:text-base text-white/80 ml-2">/mês • 12x</span>
+                                                <span className="text-xs sm:text-sm md:text-base text-gray-700 ml-2">/mês • 12x</span>
                                             </div>
 
                                             {/* Preço à Vista */}
                                             <div className="mt-1">
-                                                <span className="text-sm text-white/90">ou </span>
-                                                <span className="text-base md:text-lg font-semibold text-white/95">
+                                                <span className="text-sm text-gray-700">ou </span>
+                                                <span className="text-base md:text-lg font-semibold text-gray-900">
                                                     R$ 897,00 à vista
                                                 </span>
                                             </div>
                                         </div>
 
-                                        <ul className="flex flex-wrap justify-center md:justify-start items-center text-sm text-white/90 mt-4 gap-x-2 gap-y-1">
+                                        <ul className="flex flex-wrap justify-center md:justify-start items-center text-sm text-gray-700 mt-4 gap-x-2 gap-y-1">
                                             <li>Acesso imediato</li>
                                             <li aria-hidden="true" className="text-xs select-none">&bull;</li>
                                             <li>Certificado digital</li>
