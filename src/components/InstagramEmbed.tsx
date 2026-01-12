@@ -40,19 +40,12 @@ export default function InstagramEmbed({
   return (
     <div
       ref={containerRef}
-      className={`w-full flex justify-center mx-auto ${className}`}
-      style={{ maxWidth }}
+      className={`w-full max-w-full overflow-x-auto flex justify-center mx-auto ${className}`}
     >
       <blockquote
-        className="instagram-media w-full"
+        className="instagram-media w-full max-w-[540px] bg-white border-0 m-auto box-border"
         data-instgrm-permalink={url}
         data-instgrm-version="14"
-        style={{
-          background: '#fff',
-          border: 0,
-          margin: '0 auto',
-          width: '100%',
-        }}
       ></blockquote>
     </div>
   );
